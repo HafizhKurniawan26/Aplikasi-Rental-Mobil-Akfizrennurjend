@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="22.7" version="22.7" Modules="enterprise" RootPath="." Language="en" Id="{794948EB-7011-4044-910C-561A700634E2}">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="CurrentJavaProductName" Value="CurrentJavaProductName"/>
+    <ROW Property="Manufacturer" Value="Universitas Pamulang"/>
+    <ROW Property="ProductCode" Value="1033:{CB1D926C-8480-4CFB-994E-693A01F9A691} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="Akfizrennurjend"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Options="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{82DCC96D-931A-4007-8E2B-D6D2C6971612}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT60" MultiBuildValue="DefaultBuild:Windows Vista/Server 2008" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT60Display" MultiBuildValue="DefaultBuild:Windows Vista/Server 2008" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1" DirectoryOptions="3"/>
+    <ROW Directory="Akfizrennurjend_Dir" Directory_Parent="APPDIR" DefaultDir="AKFIZR~1|Akfizrennurjend" DirectoryOptions="3"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="__10_Dir" Directory_Parent="objects_Dir" DefaultDir="50" DirectoryOptions="3"/>
+    <ROW Directory="__11_Dir" Directory_Parent="objects_Dir" DefaultDir="61" DirectoryOptions="3"/>
+    <ROW Directory="__12_Dir" Directory_Parent="objects_Dir" DefaultDir="67" DirectoryOptions="3"/>
+    <ROW Directory="__13_Dir" Directory_Parent="objects_Dir" DefaultDir="71" DirectoryOptions="3"/>
+    <ROW Directory="__14_Dir" Directory_Parent="objects_Dir" DefaultDir="80" DirectoryOptions="3"/>
+    <ROW Directory="__15_Dir" Directory_Parent="objects_Dir" DefaultDir="83" DirectoryOptions="3"/>
+    <ROW Directory="__16_Dir" Directory_Parent="objects_Dir" DefaultDir="96" DirectoryOptions="3"/>
+    <ROW Directory="__17_Dir" Directory_Parent="objects_Dir" DefaultDir="98" DirectoryOptions="3"/>
+    <ROW Directory="__1_Dir" Directory_Parent="objects_Dir" DefaultDir="03" DirectoryOptions="3"/>
+    <ROW Directory="__2_Dir" Directory_Parent="objects_Dir" DefaultDir="07" DirectoryOptions="3"/>
+    <ROW Directory="__3_Dir" Directory_Parent="objects_Dir" DefaultDir="13" DirectoryOptions="3"/>
+    <ROW Directory="__4_Dir" Directory_Parent="objects_Dir" DefaultDir="18" DirectoryOptions="3"/>
+    <ROW Directory="__5_Dir" Directory_Parent="objects_Dir" DefaultDir="23" DirectoryOptions="3"/>
+    <ROW Directory="__6_Dir" Directory_Parent="objects_Dir" DefaultDir="32" DirectoryOptions="3"/>
+    <ROW Directory="__7_Dir" Directory_Parent="objects_Dir" DefaultDir="33" DirectoryOptions="3"/>
+    <ROW Directory="__8_Dir" Directory_Parent="objects_Dir" DefaultDir="42" DirectoryOptions="3"/>
+    <ROW Directory="__9_Dir" Directory_Parent="objects_Dir" DefaultDir="43" DirectoryOptions="3"/>
+    <ROW Directory="__Dir" Directory_Parent="objects_Dir" DefaultDir="02" DirectoryOptions="3"/>
+    <ROW Directory="a1_Dir" Directory_Parent="objects_Dir" DefaultDir="a1" DirectoryOptions="3"/>
+    <ROW Directory="a4_Dir" Directory_Parent="objects_Dir" DefaultDir="a4" DirectoryOptions="3"/>
+    <ROW Directory="aa_Dir" Directory_Parent="objects_Dir" DefaultDir="aa" DirectoryOptions="3"/>
+    <ROW Directory="ac_Dir" Directory_Parent="objects_Dir" DefaultDir="ac" DirectoryOptions="3"/>
+    <ROW Directory="admin_1_Dir" Directory_Parent="src_Dir" DefaultDir="admin" DirectoryOptions="3"/>
+    <ROW Directory="admin_Dir" Directory_Parent="classes_Dir" DefaultDir="admin" DirectoryOptions="3"/>
+    <ROW Directory="ae_Dir" Directory_Parent="objects_Dir" DefaultDir="ae" DirectoryOptions="3"/>
+    <ROW Directory="auth_1_Dir" Directory_Parent="src_Dir" DefaultDir="auth" DirectoryOptions="3"/>
+    <ROW Directory="auth_Dir" Directory_Parent="classes_Dir" DefaultDir="auth" DirectoryOptions="3"/>
+    <ROW Directory="b5_Dir" Directory_Parent="objects_Dir" DefaultDir="b5" DirectoryOptions="3"/>
+    <ROW Directory="b6_Dir" Directory_Parent="objects_Dir" DefaultDir="b6" DirectoryOptions="3"/>
+    <ROW Directory="b_1_Dir" Directory_Parent="objects_Dir" DefaultDir="5b" DirectoryOptions="3"/>
+    <ROW Directory="b_Dir" Directory_Parent="objects_Dir" DefaultDir="0b" DirectoryOptions="3"/>
+    <ROW Directory="ba_Dir" Directory_Parent="objects_Dir" DefaultDir="ba" DirectoryOptions="3"/>
+    <ROW Directory="bb_Dir" Directory_Parent="objects_Dir" DefaultDir="bb" DirectoryOptions="3"/>
+    <ROW Directory="bc_Dir" Directory_Parent="objects_Dir" DefaultDir="bc" DirectoryOptions="3"/>
+    <ROW Directory="build_Dir" Directory_Parent="Akfizrennurjend_Dir" DefaultDir="build" DirectoryOptions="3"/>
+    <ROW Directory="c0_Dir" Directory_Parent="objects_Dir" DefaultDir="c0" DirectoryOptions="3"/>
+    <ROW Directory="c2_Dir" Directory_Parent="objects_Dir" DefaultDir="c2" DirectoryOptions="3"/>
+    <ROW Directory="c6_Dir" Directory_Parent="objects_Dir" DefaultDir="c6" DirectoryOptions="3"/>
+    <ROW Directory="c8_Dir" Directory_Parent="objects_Dir" DefaultDir="c8" DirectoryOptions="3"/>
+    <ROW Directory="c9_Dir" Directory_Parent="objects_Dir" DefaultDir="c9" DirectoryOptions="3"/>
+    <ROW Directory="ca_Dir" Directory_Parent="objects_Dir" DefaultDir="ca" DirectoryOptions="3"/>
+    <ROW Directory="cd_Dir" Directory_Parent="objects_Dir" DefaultDir="cd" DirectoryOptions="3"/>
+    <ROW Directory="ce_Dir" Directory_Parent="objects_Dir" DefaultDir="ce" DirectoryOptions="3"/>
+    <ROW Directory="classes_Dir" Directory_Parent="build_Dir" DefaultDir="classes" DirectoryOptions="3"/>
+    <ROW Directory="config_1_Dir" Directory_Parent="src_Dir" DefaultDir="config" DirectoryOptions="3"/>
+    <ROW Directory="config_Dir" Directory_Parent="classes_Dir" DefaultDir="config" DirectoryOptions="3"/>
+    <ROW Directory="d7_Dir" Directory_Parent="objects_Dir" DefaultDir="d7" DirectoryOptions="3"/>
+    <ROW Directory="d8_Dir" Directory_Parent="objects_Dir" DefaultDir="d8" DirectoryOptions="3"/>
+    <ROW Directory="d_1_Dir" Directory_Parent="objects_Dir" DefaultDir="8d" DirectoryOptions="3"/>
+    <ROW Directory="d_Dir" Directory_Parent="objects_Dir" DefaultDir="7d" DirectoryOptions="3"/>
+    <ROW Directory="dc_Dir" Directory_Parent="objects_Dir" DefaultDir="dc" DirectoryOptions="3"/>
+    <ROW Directory="de_Dir" Directory_Parent="objects_Dir" DefaultDir="de" DirectoryOptions="3"/>
+    <ROW Directory="dist_Dir" Directory_Parent="Akfizrennurjend_Dir" DefaultDir="dist" DirectoryOptions="3"/>
+    <ROW Directory="e_Dir" Directory_Parent="objects_Dir" DefaultDir="1e" DirectoryOptions="3"/>
+    <ROW Directory="ee_Dir" Directory_Parent="objects_Dir" DefaultDir="ee" DirectoryOptions="3"/>
+    <ROW Directory="ef_Dir" Directory_Parent="objects_Dir" DefaultDir="ef" DirectoryOptions="3"/>
+    <ROW Directory="f6_Dir" Directory_Parent="objects_Dir" DefaultDir="f6" DirectoryOptions="3"/>
+    <ROW Directory="ff_Dir" Directory_Parent="objects_Dir" DefaultDir="ff" DirectoryOptions="3"/>
+    <ROW Directory="git_Dir" Directory_Parent="Akfizrennurjend_Dir" DefaultDir="GIT~1|.git" DirectoryOptions="3"/>
+    <ROW Directory="heads_1_Dir" Directory_Parent="refs_1_Dir" DefaultDir="heads" DirectoryOptions="3"/>
+    <ROW Directory="heads_Dir" Directory_Parent="refs_Dir" DefaultDir="heads" DirectoryOptions="3"/>
+    <ROW Directory="lib_Dir" Directory_Parent="dist_Dir" DefaultDir="lib" DirectoryOptions="3"/>
+    <ROW Directory="logs_Dir" Directory_Parent="git_Dir" DefaultDir="logs" DirectoryOptions="3"/>
+    <ROW Directory="nbproject_Dir" Directory_Parent="Akfizrennurjend_Dir" DefaultDir="NBPROJ~1|nbproject" DirectoryOptions="3"/>
+    <ROW Directory="objects_Dir" Directory_Parent="git_Dir" DefaultDir="objects" DirectoryOptions="3"/>
+    <ROW Directory="pegawai_1_Dir" Directory_Parent="src_Dir" DefaultDir="pegawai" DirectoryOptions="3"/>
+    <ROW Directory="pegawai_Dir" Directory_Parent="classes_Dir" DefaultDir="pegawai" DirectoryOptions="3"/>
+    <ROW Directory="pelanggan_1_Dir" Directory_Parent="src_Dir" DefaultDir="PELANG~1|pelanggan" DirectoryOptions="3"/>
+    <ROW Directory="pelanggan_Dir" Directory_Parent="classes_Dir" DefaultDir="PELANG~1|pelanggan" DirectoryOptions="3"/>
+    <ROW Directory="private_Dir" Directory_Parent="nbproject_Dir" DefaultDir="private" DirectoryOptions="3"/>
+    <ROW Directory="refs_1_Dir" Directory_Parent="git_Dir" DefaultDir="refs" DirectoryOptions="3"/>
+    <ROW Directory="refs_Dir" Directory_Parent="logs_Dir" DefaultDir="refs" DirectoryOptions="3"/>
+    <ROW Directory="src_Dir" Directory_Parent="Akfizrennurjend_Dir" DefaultDir="src" DirectoryOptions="3"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.SideBySideGuidComponent">
+    <ROW Component="APPDIR" Value="{601AB0BA-670B-4B1A-83B9-DC3AA57BB67B}"/>
+    <ROW Component="ProductInformation" Value="{C170DB62-8744-443D-9B34-BBCF2D81D752}"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="APPDIR" ComponentId="{601AB0BA-670B-4B1A-83B9-DC3AA57BB67B}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="Akfizrennurjend.jar" ComponentId="{2E0D6E24-DEF1-4C9F-85B2-F919E9F7080A}" Directory_="dist_Dir" Attributes="0" KeyPath="Akfizrennurjend.jar" Type="0"/>
+    <ROW Component="COMMIT_EDITMSG" ComponentId="{1D05E487-595B-4B18-B80E-C73FECC9D217}" Directory_="git_Dir" Attributes="0" KeyPath="COMMIT_EDITMSG" Type="0"/>
+    <ROW Component="Demo.exe" ComponentId="{EC644534-8C73-4D5A-9F86-EB1BF4A19734}" Directory_="APPDIR" Attributes="0" KeyPath="Demo.exe"/>
+    <ROW Component="HEAD" ComponentId="{B93F108A-FEB1-43CC-A943-76132273D80B}" Directory_="logs_Dir" Attributes="0" KeyPath="HEAD_1" Type="0"/>
+    <ROW Component="ProductInformation" ComponentId="{C170DB62-8744-443D-9B34-BBCF2D81D752}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{0A52F9FF-E56E-4CA4-8717-C0299346BB70}" Directory_="SHORTCUTDIR" Attributes="0"/>
+    <ROW Component="a16da3a7a71f5c76189b80bab942537292e5d" ComponentId="{38A48A39-487A-404D-8688-01320416D4C6}" Directory_="__5_Dir" Attributes="0" KeyPath="a16da3a7a71f5c76189b80bab942537292e5d" Type="0"/>
+    <ROW Component="a5ab62a611f0d1cc9f894bd20dd12430b0221" ComponentId="{AA7BCE4E-2B86-49FD-84AC-0FE5311B3F79}" Directory_="de_Dir" Attributes="0" KeyPath="a5ab62a611f0d1cc9f894bd20dd12430b0221" Type="0"/>
+    <ROW Component="a69cc5bc66d8872b5fa4b983772a6305786c" ComponentId="{A1F131B8-0576-486F-87E6-230B3D49BA73}" Directory_="__1_Dir" Attributes="0" KeyPath="a69cc5bc66d8872b5fa4b983772a6305786c" Type="0"/>
+    <ROW Component="a81a6d4517f4a568770dcec1a1285f5dddd56" ComponentId="{0AF3F8A1-5CEB-4687-94CB-F746FE092661}" Directory_="__4_Dir" Attributes="0" KeyPath="a81a6d4517f4a568770dcec1a1285f5dddd56" Type="0"/>
+    <ROW Component="aa7bbad7517940d5fd2f81d6d3ae511dc67ae" ComponentId="{6EB06B3F-99E4-43EB-AF96-4BAD856FA940}" Directory_="b_Dir" Attributes="0" KeyPath="aa7bbad7517940d5fd2f81d6d3ae511dc67ae" Type="0"/>
+    <ROW Component="af2ef207d542437a0fd912ba0b2f8b9a62898e" ComponentId="{C4BA4CDB-8E8A-4448-B96D-44588C9CE0B8}" Directory_="__2_Dir" Attributes="0" KeyPath="af2ef207d542437a0fd912ba0b2f8b9a62898e" Type="0"/>
+    <ROW Component="b021996ccc2889151f885d11c5a14fd8835273" ComponentId="{19B7D586-5971-49A4-8EB2-28552A41957A}" Directory_="b5_Dir" Attributes="0" KeyPath="b021996ccc2889151f885d11c5a14fd8835273" Type="0"/>
+    <ROW Component="b43f450fdc39395ec489320fd3b226f116f5" ComponentId="{3BF2A8EC-D74B-4335-B25F-C6423C24E6ED}" Directory_="__7_Dir" Attributes="0" KeyPath="b43f450fdc39395ec489320fd3b226f116f5" Type="0"/>
+    <ROW Component="b50b27c5159120937abf9e90f40f88844deb" ComponentId="{071AB52E-A4B5-4DD8-B044-DC497E7B2F4E}" Directory_="__10_Dir" Attributes="0" KeyPath="b50b27c5159120937abf9e90f40f88844deb" Type="0"/>
+    <ROW Component="b696531cc9f31683ae13e9e6afcb51917b1b" ComponentId="{CD9AB525-1FD8-461C-93F7-67F0873F8B8C}" Directory_="__Dir" Attributes="0" KeyPath="b696531cc9f31683ae13e9e6afcb51917b1b" Type="0"/>
+    <ROW Component="bd71f791a2d3b4fa1f035b63a87043e461fb" ComponentId="{1BF7F472-CA80-4CAB-957E-10C68C77F0D6}" Directory_="b6_Dir" Attributes="0" KeyPath="bd71f791a2d3b4fa1f035b63a87043e461fb" Type="0"/>
+    <ROW Component="build.xml" ComponentId="{AC93110A-59D2-4332-9090-D10061695886}" Directory_="Akfizrennurjend_Dir" Attributes="0" KeyPath="build.xml" Type="0"/>
+    <ROW Component="buildimpl.xml" ComponentId="{FEDDA02C-EC5C-441B-A0CE-CC12CCA83B92}" Directory_="nbproject_Dir" Attributes="0" KeyPath="buildimpl.xml" Type="0"/>
+    <ROW Component="builtjar.properties" ComponentId="{A7650B4C-7D7B-470C-A400-5AEB697C5160}" Directory_="build_Dir" Attributes="0" KeyPath="builtjar.properties" Type="0"/>
+    <ROW Component="c0189d0b9855130740cace88485a89985ce5" ComponentId="{B6B125B3-3CA7-4404-A751-6C8A634AAC5C}" Directory_="cd_Dir" Attributes="0" KeyPath="c0189d0b9855130740cace88485a89985ce5" Type="0"/>
+    <ROW Component="c0415ed766e95f1739949c1ad21ec39c3fb36a" ComponentId="{0F9CDBC2-61B8-4F01-AD94-02D3CA58A4CA}" Directory_="__3_Dir" Attributes="0" KeyPath="c0415ed766e95f1739949c1ad21ec39c3fb36a" Type="0"/>
+    <ROW Component="c2b316af08c566d432feac8ebc54dc9fe0ec74" ComponentId="{414071A4-FC64-4F1D-9FE2-FE203DFC8C64}" Directory_="ca_Dir" Attributes="0" KeyPath="c2b316af08c566d432feac8ebc54dc9fe0ec74" Type="0"/>
+    <ROW Component="c33b7ee45f0be381a5e5fbb6feb84bf7c560c0" ComponentId="{A7DABF2C-50B1-4F61-858D-A21B651913BC}" Directory_="aa_Dir" Attributes="0" KeyPath="c33b7ee45f0be381a5e5fbb6feb84bf7c560c0" Type="0"/>
+    <ROW Component="ca487b681697a55b84c86ba8d01c845efaa8a4" ComponentId="{98107CFA-D568-4D5F-857E-A0915B2E71A8}" Directory_="d7_Dir" Attributes="0" KeyPath="ca487b681697a55b84c86ba8d01c845efaa8a4" Type="0"/>
+    <ROW Component="cb10795e02975be193424d958a83123cd79f06" ComponentId="{8C796117-E958-4117-B17A-C9862BB4FD1B}" Directory_="a4_Dir" Attributes="0" KeyPath="cb10795e02975be193424d958a83123cd79f06" Type="0"/>
+    <ROW Component="cc962f3bcdfd95ff01e9796f86616ad1b2a3" ComponentId="{12C73A55-0C8C-4C5D-8C1A-C677D9A393BE}" Directory_="ff_Dir" Attributes="0" KeyPath="cc962f3bcdfd95ff01e9796f86616ad1b2a3" Type="0"/>
+    <ROW Component="cdf7ce6e1881105872da7185a78fa2e24d4a0" ComponentId="{8E1C3913-F01E-4ED2-9ABF-863054034EE6}" Directory_="ba_Dir" Attributes="0" KeyPath="cdf7ce6e1881105872da7185a78fa2e24d4a0" Type="0"/>
+    <ROW Component="changePassword.form" ComponentId="{7A20B8CD-7DDC-4FF1-8C8B-6C986D547BFB}" Directory_="auth_1_Dir" Attributes="0" KeyPath="changePassword.form" Type="0"/>
+    <ROW Component="changePassword1.class" ComponentId="{CC179A3A-6191-484C-BD41-1F6FE30BCD9E}" Directory_="auth_Dir" Attributes="0" KeyPath="changePassword1.class" Type="0"/>
+    <ROW Component="d0416886e7c50c93f743f4fc17fe01c29688b" ComponentId="{B70FBEA9-F3AC-40B1-9782-81CFA2D3068D}" Directory_="__11_Dir" Attributes="0" KeyPath="d0416886e7c50c93f743f4fc17fe01c29688b" Type="0"/>
+    <ROW Component="d883e209c2a577fa4b0348248066fed2f13edd" ComponentId="{276D5CE4-A4E3-4384-A274-1D12E863582E}" Directory_="a1_Dir" Attributes="0" KeyPath="d883e209c2a577fa4b0348248066fed2f13edd" Type="0"/>
+    <ROW Component="dab09cf3f52aed540a5accb83b93e7dfe" ComponentId="{76C2C6DF-5096-4B11-8ADC-A4CB0F7183FE}" Directory_="ee_Dir" Attributes="0" KeyPath="dab09cf3f52aed540a5accb83b93e7dfe" Type="0"/>
+    <ROW Component="dashboardAdmin.form" ComponentId="{4347C7CA-DC34-46CD-BC64-ABCAECB42367}" Directory_="admin_1_Dir" Attributes="0" KeyPath="dashboardAdmin.form" Type="0"/>
+    <ROW Component="dashboardAdmin1.class" ComponentId="{D2E2F645-4183-41EF-97E3-3145A1533615}" Directory_="admin_Dir" Attributes="0" KeyPath="dashboardAdmin1.class" Type="0"/>
+    <ROW Component="dashboardPegawai.form" ComponentId="{45F2D785-930C-4CA6-A2BD-A2AD26D4E8DB}" Directory_="pegawai_1_Dir" Attributes="0" KeyPath="dashboardPegawai.form" Type="0"/>
+    <ROW Component="dashboardPegawai1.class" ComponentId="{63DEED43-F7BD-47AB-B5A4-FB37B561D4A1}" Directory_="pegawai_Dir" Attributes="0" KeyPath="dashboardPegawai1.class" Type="0"/>
+    <ROW Component="dashboardPelanggan.form" ComponentId="{3EE42D38-A6F7-4A3E-A2AC-ABAD7B607E4A}" Directory_="pelanggan_1_Dir" Attributes="0" KeyPath="dashboardPelanggan.form" Type="0"/>
+    <ROW Component="dashboardPelanggan1.class" ComponentId="{E76738E7-98FB-4622-B055-7F62C8A086E2}" Directory_="pelanggan_Dir" Attributes="0" KeyPath="dashboardPelanggan1.class" Type="0"/>
+    <ROW Component="databaseConnection.class" ComponentId="{2E5898F2-A005-417B-88A6-51526C46B58D}" Directory_="config_Dir" Attributes="0" KeyPath="databaseConnection.class" Type="0"/>
+    <ROW Component="databaseConnection.java" ComponentId="{901DF783-CD8E-4EDE-9E66-C1F660AAF594}" Directory_="config_1_Dir" Attributes="0" KeyPath="databaseConnection.java" Type="0"/>
+    <ROW Component="dc31779b6cab9e3181780a7af957aaa16" ComponentId="{D9795D7E-03CD-4827-BB5C-74C906BF44D8}" Directory_="ef_Dir" Attributes="0" KeyPath="dc31779b6cab9e3181780a7af957aaa16" Type="0"/>
+    <ROW Component="dc6309dd8cc53ce97910cf7b1de81e3f9f1ff7" ComponentId="{0EF1C261-A956-4076-9454-EF0AF558645B}" Directory_="d_Dir" Attributes="0" KeyPath="dc6309dd8cc53ce97910cf7b1de81e3f9f1ff7" Type="0"/>
+    <ROW Component="de1360d9a4e9f56e41a2df95aecefdbe1bc0" ComponentId="{3110D6A7-9A44-4E4F-B0BB-A94448944C56}" Directory_="ae_Dir" Attributes="0" KeyPath="de1360d9a4e9f56e41a2df95aecefdbe1bc0" Type="0"/>
+    <ROW Component="deb2ffc68a314e1bef6f085001d7fec38e0686" ComponentId="{3935DC2C-0504-4E33-B243-BA7DAEAF3233}" Directory_="c8_Dir" Attributes="0" KeyPath="deb2ffc68a314e1bef6f085001d7fec38e0686" Type="0"/>
+    <ROW Component="df0b86da1f01ef1229bc292ae5ab" ComponentId="{889F83AA-9148-4167-A555-F1D11F24FAF5}" Directory_="__15_Dir" Attributes="0" KeyPath="df0b86da1f01ef1229bc292ae5ab" Type="0"/>
+    <ROW Component="e3a47ea47da9ed3419c85e2e3a88388380073" ComponentId="{3FF8B972-A9EA-4749-BA39-A637DC6DDE01}" Directory_="bc_Dir" Attributes="0" KeyPath="e3a47ea47da9ed3419c85e2e3a88388380073" Type="0"/>
+    <ROW Component="e81f088793626a996ccd337d51643e44953" ComponentId="{17C70F08-645F-4A05-B47E-B283E6EA4B3F}" Directory_="__12_Dir" Attributes="0" KeyPath="e81f088793626a996ccd337d51643e44953" Type="0"/>
+    <ROW Component="e8e5bc3b7f1f7bad2bc0751a933e00c801983" ComponentId="{E423B0DB-91D9-4CD3-8445-C9260F9E859E}" Directory_="__6_Dir" Attributes="0" KeyPath="e8e5bc3b7f1f7bad2bc0751a933e00c801983" Type="0"/>
+    <ROW Component="eab6323d95234143435df1bc93aee83a82e20b" ComponentId="{8A758228-08EA-4A09-9578-8F54E5249B49}" Directory_="c9_Dir" Attributes="0" KeyPath="eab6323d95234143435df1bc93aee83a82e20b" Type="0"/>
+    <ROW Component="eadfd2468eeffae5315b0a89b4d46f88d06c4" ComponentId="{F6ED621B-82C6-437F-8F3C-DA85BF17AE56}" Directory_="f6_Dir" Attributes="0" KeyPath="eadfd2468eeffae5315b0a89b4d46f88d06c4" Type="0"/>
+    <ROW Component="eb5e642b60f991a7a93f0928614b79195de38a" ComponentId="{09B6D52C-CE1E-42C7-9A93-800F3DAB7C92}" Directory_="__13_Dir" Attributes="0" KeyPath="eb5e642b60f991a7a93f0928614b79195de38a" Type="0"/>
+    <ROW Component="ebe19f7e4929d773d4ce5f7b16550d8e86c90" ComponentId="{50402525-1123-46A9-B601-D15B285A7A66}" Directory_="dc_Dir" Attributes="0" KeyPath="ebe19f7e4929d773d4ce5f7b16550d8e86c90" Type="0"/>
+    <ROW Component="ebeaedc707989c26286d4a321d97eef873" ComponentId="{CFA07CF8-44DE-4F4F-9602-09246CAC6295}" Directory_="e_Dir" Attributes="0" KeyPath="ebeaedc707989c26286d4a321d97eef873" Type="0"/>
+    <ROW Component="ef129742f21542c6b772a07a3c9fd97031ad7" ComponentId="{3BD29E23-7C77-49A7-ACDE-B41BA34ABD3D}" Directory_="c6_Dir" Attributes="0" KeyPath="ef129742f21542c6b772a07a3c9fd97031ad7" Type="0"/>
+    <ROW Component="ef7bcd3386d764570f91c021f35b955e" ComponentId="{772DC919-1E36-4CC5-A897-B362994131D2}" Directory_="__14_Dir" Attributes="0" KeyPath="ef7bcd3386d764570f91c021f35b955e" Type="0"/>
+    <ROW Component="f04fc152b130cc139c27a149090a282bd39c50" ComponentId="{A2F49066-FED4-4855-AE5B-82DBAE61ADDA}" Directory_="__9_Dir" Attributes="0" KeyPath="f04fc152b130cc139c27a149090a282bd39c50" Type="0"/>
+    <ROW Component="f1b8384bef1e1ff7f89e37bb88a0283279a0f" ComponentId="{76C5DF98-5A89-4425-A52C-3D82D57ACED7}" Directory_="__16_Dir" Attributes="0" KeyPath="f1b8384bef1e1ff7f89e37bb88a0283279a0f" Type="0"/>
+    <ROW Component="f2f368f39d401868b2a16ec7ea09ca04c042d1" ComponentId="{3E2F1365-5E28-43F4-9BC0-E623C10AF07E}" Directory_="d8_Dir" Attributes="0" KeyPath="f2f368f39d401868b2a16ec7ea09ca04c042d1" Type="0"/>
+    <ROW Component="f35cf854dd9bf0799653f11486601bc5f574b" ComponentId="{9C034878-3AA7-4963-A60E-BF8BC525C8E4}" Directory_="__8_Dir" Attributes="0" KeyPath="f35cf854dd9bf0799653f11486601bc5f574b" Type="0"/>
+    <ROW Component="f38ef7f00b668a56836e3dfed05a431" ComponentId="{D4894ACA-C2C6-44A7-86F7-52092F622451}" Directory_="d_1_Dir" Attributes="0" KeyPath="f38ef7f00b668a56836e3dfed05a431" Type="0"/>
+    <ROW Component="f4767094f79545a94bc6c060348158169c1475" ComponentId="{2B3E6D56-5F42-46F9-92E9-FE0F9BF0E352}" Directory_="ac_Dir" Attributes="0" KeyPath="f4767094f79545a94bc6c060348158169c1475" Type="0"/>
+    <ROW Component="f881ab932ddde7d2d790fbe1e6f7d2b08c57" ComponentId="{8BF5318E-14F3-4F6F-A44E-CD39D5D71BF1}" Directory_="b_1_Dir" Attributes="0" KeyPath="f881ab932ddde7d2d790fbe1e6f7d2b08c57" Type="0"/>
+    <ROW Component="f91630f1bd2b6cafe8f704f0ce08a02a0d57c2" ComponentId="{E89B4464-009D-45DD-BED6-3A8BDF7A323E}" Directory_="c2_Dir" Attributes="0" KeyPath="f91630f1bd2b6cafe8f704f0ce08a02a0d57c2" Type="0"/>
+    <ROW Component="f9822e97b12d7167a2f0dd01d9969d" ComponentId="{5EAFF0E7-30DD-4C07-B3AD-452264773880}" Directory_="__17_Dir" Attributes="0" KeyPath="f9822e97b12d7167a2f0dd01d9969d" Type="0"/>
+    <ROW Component="fbae2bcfece4ddf38a662d03d390034a97387" ComponentId="{C3BC0FB3-6B7E-4FC2-8382-B61DBD1BE8BC}" Directory_="c0_Dir" Attributes="0" KeyPath="fbae2bcfece4ddf38a662d03d390034a97387" Type="0"/>
+    <ROW Component="fc5a8b4b33404a6d578c5808be4f6b508" ComponentId="{D6F42D0E-4576-4EE6-80B5-ACB6B643A1B2}" Directory_="ce_Dir" Attributes="0" KeyPath="fc5a8b4b33404a6d578c5808be4f6b508" Type="0"/>
+    <ROW Component="fd344095115099c7f222d655a50c9c68b2793" ComponentId="{9F4AF980-D3B0-4379-9992-A5861BA0AD0A}" Directory_="bb_Dir" Attributes="0" KeyPath="fd344095115099c7f222d655a50c9c68b2793" Type="0"/>
+    <ROW Component="master" ComponentId="{4C4DF934-2F7E-46B6-AD8E-262BB24C89B1}" Directory_="heads_Dir" Attributes="0" KeyPath="master" Type="0"/>
+    <ROW Component="master_1" ComponentId="{700507A0-050A-424D-B575-F1C9D7E8A56E}" Directory_="heads_1_Dir" Attributes="0" KeyPath="master_1" Type="0"/>
+    <ROW Component="mysqlconnectorj9.3.0.jar" ComponentId="{2F3DCC43-6C3E-461F-B63D-CB813C2C1906}" Directory_="lib_Dir" Attributes="0" KeyPath="mysqlconnectorj9.3.0.jar" Type="0"/>
+    <ROW Component="private.properties" ComponentId="{AE1FAE41-02F4-4BE4-B15E-5033DC24B7CC}" Directory_="private_Dir" Attributes="0" KeyPath="private.properties" Type="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="COMMIT_EDITMSG" Component_="COMMIT_EDITMSG" FileName="COMMIT~1|COMMIT_EDITMSG" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\COMMIT_EDITMSG" SelfReg="false"/>
+    <ROW File="config" Component_="COMMIT_EDITMSG" FileName="config" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\config" SelfReg="false"/>
+    <ROW File="HEAD" Component_="COMMIT_EDITMSG" FileName="HEAD" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\HEAD" SelfReg="false"/>
+    <ROW File="index" Component_="COMMIT_EDITMSG" FileName="index" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\index" SelfReg="false"/>
+    <ROW File="HEAD_1" Component_="HEAD" FileName="HEAD" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\logs\HEAD" SelfReg="false"/>
+    <ROW File="master" Component_="master" FileName="master" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\logs\refs\heads\master" SelfReg="false"/>
+    <ROW File="b696531cc9f31683ae13e9e6afcb51917b1b" Component_="b696531cc9f31683ae13e9e6afcb51917b1b" FileName="50B696~1|50b696531cc9f31683ae13e9e6afcb51917b1b" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\02\50b696531cc9f31683ae13e9e6afcb51917b1b" SelfReg="false"/>
+    <ROW File="a69cc5bc66d8872b5fa4b983772a6305786c" Component_="a69cc5bc66d8872b5fa4b983772a6305786c" FileName="78A69C~1|78a69cc5bc66d8872b5fa4b983772a6305786c" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\03\78a69cc5bc66d8872b5fa4b983772a6305786c" SelfReg="false"/>
+    <ROW File="af2ef207d542437a0fd912ba0b2f8b9a62898e" Component_="af2ef207d542437a0fd912ba0b2f8b9a62898e" FileName="AF2EF2~1|af2ef207d542437a0fd912ba0b2f8b9a62898e" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\07\af2ef207d542437a0fd912ba0b2f8b9a62898e" SelfReg="false"/>
+    <ROW File="aa7bbad7517940d5fd2f81d6d3ae511dc67ae" Component_="aa7bbad7517940d5fd2f81d6d3ae511dc67ae" FileName="5AA7BB~1|5aa7bbad7517940d5fd2f81d6d3ae511dc67ae" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\0b\5aa7bbad7517940d5fd2f81d6d3ae511dc67ae" SelfReg="false"/>
+    <ROW File="c0415ed766e95f1739949c1ad21ec39c3fb36a" Component_="c0415ed766e95f1739949c1ad21ec39c3fb36a" FileName="C0415E~1|c0415ed766e95f1739949c1ad21ec39c3fb36a" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\13\c0415ed766e95f1739949c1ad21ec39c3fb36a" SelfReg="false"/>
+    <ROW File="a81a6d4517f4a568770dcec1a1285f5dddd56" Component_="a81a6d4517f4a568770dcec1a1285f5dddd56" FileName="4A81A6~1|4a81a6d4517f4a568770dcec1a1285f5dddd56" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\18\4a81a6d4517f4a568770dcec1a1285f5dddd56" SelfReg="false"/>
+    <ROW File="a0ac070ed45b394f016450e77b5f3752209138" Component_="a81a6d4517f4a568770dcec1a1285f5dddd56" FileName="A0AC07~1|a0ac070ed45b394f016450e77b5f3752209138" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\18\a0ac070ed45b394f016450e77b5f3752209138" SelfReg="false"/>
+    <ROW File="ebeaedc707989c26286d4a321d97eef873" Component_="ebeaedc707989c26286d4a321d97eef873" FileName="9376EB~1|9376ebeaedc707989c26286d4a321d97eef873" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\1e\9376ebeaedc707989c26286d4a321d97eef873" SelfReg="false"/>
+    <ROW File="a16da3a7a71f5c76189b80bab942537292e5d" Component_="a16da3a7a71f5c76189b80bab942537292e5d" FileName="9A16DA~1|9a16da3a7a71f5c76189b80bab942537292e5d" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\23\9a16da3a7a71f5c76189b80bab942537292e5d" SelfReg="false"/>
+    <ROW File="cd74128dec1cf9fcc5bde0b6b754fa25f35e22" Component_="a16da3a7a71f5c76189b80bab942537292e5d" FileName="CD7412~1|cd74128dec1cf9fcc5bde0b6b754fa25f35e22" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\23\cd74128dec1cf9fcc5bde0b6b754fa25f35e22" SelfReg="false"/>
+    <ROW File="e8e5bc3b7f1f7bad2bc0751a933e00c801983" Component_="e8e5bc3b7f1f7bad2bc0751a933e00c801983" FileName="8E8E5B~1|8e8e5bc3b7f1f7bad2bc0751a933e00c801983" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\32\8e8e5bc3b7f1f7bad2bc0751a933e00c801983" SelfReg="false"/>
+    <ROW File="b43f450fdc39395ec489320fd3b226f116f5" Component_="b43f450fdc39395ec489320fd3b226f116f5" FileName="68B43F~1|68b43f450fdc39395ec489320fd3b226f116f5" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\33\68b43f450fdc39395ec489320fd3b226f116f5" SelfReg="false"/>
+    <ROW File="b146159d0e4eadf994df76a020fac640ddb95" Component_="b43f450fdc39395ec489320fd3b226f116f5" FileName="7B1461~1|7b146159d0e4eadf994df76a020fac640ddb95" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\33\7b146159d0e4eadf994df76a020fac640ddb95" SelfReg="false"/>
+    <ROW File="f35cf854dd9bf0799653f11486601bc5f574b" Component_="f35cf854dd9bf0799653f11486601bc5f574b" FileName="7F35CF~1|7f35cf854dd9bf0799653f11486601bc5f574b" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\42\7f35cf854dd9bf0799653f11486601bc5f574b" SelfReg="false"/>
+    <ROW File="f04fc152b130cc139c27a149090a282bd39c50" Component_="f04fc152b130cc139c27a149090a282bd39c50" FileName="F04FC1~1|f04fc152b130cc139c27a149090a282bd39c50" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\43\f04fc152b130cc139c27a149090a282bd39c50" SelfReg="false"/>
+    <ROW File="b50b27c5159120937abf9e90f40f88844deb" Component_="b50b27c5159120937abf9e90f40f88844deb" FileName="02B50B~1|02b50b27c5159120937abf9e90f40f88844deb" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\50\02b50b27c5159120937abf9e90f40f88844deb" SelfReg="false"/>
+    <ROW File="f881ab932ddde7d2d790fbe1e6f7d2b08c57" Component_="f881ab932ddde7d2d790fbe1e6f7d2b08c57" FileName="73F881~1|73f881ab932ddde7d2d790fbe1e6f7d2b08c57" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\5b\73f881ab932ddde7d2d790fbe1e6f7d2b08c57" SelfReg="false"/>
+    <ROW File="e87a6affd7653a1be61346deb0b5a313beaec" Component_="f881ab932ddde7d2d790fbe1e6f7d2b08c57" FileName="7E87A6~1|7e87a6affd7653a1be61346deb0b5a313beaec" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\5b\7e87a6affd7653a1be61346deb0b5a313beaec" SelfReg="false"/>
+    <ROW File="f66f6e126df796c56b088ae3d694297fce7de7" Component_="f881ab932ddde7d2d790fbe1e6f7d2b08c57" FileName="F66F6E~1|f66f6e126df796c56b088ae3d694297fce7de7" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\5b\f66f6e126df796c56b088ae3d694297fce7de7" SelfReg="false"/>
+    <ROW File="d0416886e7c50c93f743f4fc17fe01c29688b" Component_="d0416886e7c50c93f743f4fc17fe01c29688b" FileName="3D0416~1|3d0416886e7c50c93f743f4fc17fe01c29688b" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\61\3d0416886e7c50c93f743f4fc17fe01c29688b" SelfReg="false"/>
+    <ROW File="e81f088793626a996ccd337d51643e44953" Component_="e81f088793626a996ccd337d51643e44953" FileName="214E81~1|214e81f088793626a996ccd337d51643e44953" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\67\214e81f088793626a996ccd337d51643e44953" SelfReg="false"/>
+    <ROW File="ec31abc5103d5777805fded9e88fd95a11fdf" Component_="e81f088793626a996ccd337d51643e44953" FileName="7EC31A~1|7ec31abc5103d5777805fded9e88fd95a11fdf" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\67\7ec31abc5103d5777805fded9e88fd95a11fdf" SelfReg="false"/>
+    <ROW File="eb5e642b60f991a7a93f0928614b79195de38a" Component_="eb5e642b60f991a7a93f0928614b79195de38a" FileName="EB5E64~1|eb5e642b60f991a7a93f0928614b79195de38a" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\71\eb5e642b60f991a7a93f0928614b79195de38a" SelfReg="false"/>
+    <ROW File="dc6309dd8cc53ce97910cf7b1de81e3f9f1ff7" Component_="dc6309dd8cc53ce97910cf7b1de81e3f9f1ff7" FileName="DC6309~1|dc6309dd8cc53ce97910cf7b1de81e3f9f1ff7" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\7d\dc6309dd8cc53ce97910cf7b1de81e3f9f1ff7" SelfReg="false"/>
+    <ROW File="ef7bcd3386d764570f91c021f35b955e" Component_="ef7bcd3386d764570f91c021f35b955e" FileName="925799~1|925799ef7bcd3386d764570f91c021f35b955e" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\80\925799ef7bcd3386d764570f91c021f35b955e" SelfReg="false"/>
+    <ROW File="df0b86da1f01ef1229bc292ae5ab" Component_="df0b86da1f01ef1229bc292ae5ab" FileName="044481~1|0444817703df0b86da1f01ef1229bc292ae5ab" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\83\0444817703df0b86da1f01ef1229bc292ae5ab" SelfReg="false"/>
+    <ROW File="f38ef7f00b668a56836e3dfed05a431" Component_="f38ef7f00b668a56836e3dfed05a431" FileName="365068~1|3650680f38ef7f00b668a56836e3dfed05a431" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\8d\3650680f38ef7f00b668a56836e3dfed05a431" SelfReg="false"/>
+    <ROW File="f1b8384bef1e1ff7f89e37bb88a0283279a0f" Component_="f1b8384bef1e1ff7f89e37bb88a0283279a0f" FileName="1F1B83~1|1f1b8384bef1e1ff7f89e37bb88a0283279a0f" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\96\1f1b8384bef1e1ff7f89e37bb88a0283279a0f" SelfReg="false"/>
+    <ROW File="f9822e97b12d7167a2f0dd01d9969d" Component_="f9822e97b12d7167a2f0dd01d9969d" FileName="915191~1|91519125f9822e97b12d7167a2f0dd01d9969d" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\98\91519125f9822e97b12d7167a2f0dd01d9969d" SelfReg="false"/>
+    <ROW File="d883e209c2a577fa4b0348248066fed2f13edd" Component_="d883e209c2a577fa4b0348248066fed2f13edd" FileName="D883E2~1|d883e209c2a577fa4b0348248066fed2f13edd" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\a1\d883e209c2a577fa4b0348248066fed2f13edd" SelfReg="false"/>
+    <ROW File="cb10795e02975be193424d958a83123cd79f06" Component_="cb10795e02975be193424d958a83123cd79f06" FileName="CB1079~1|cb10795e02975be193424d958a83123cd79f06" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\a4\cb10795e02975be193424d958a83123cd79f06" SelfReg="false"/>
+    <ROW File="c33b7ee45f0be381a5e5fbb6feb84bf7c560c0" Component_="c33b7ee45f0be381a5e5fbb6feb84bf7c560c0" FileName="C33B7E~1|c33b7ee45f0be381a5e5fbb6feb84bf7c560c0" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\aa\c33b7ee45f0be381a5e5fbb6feb84bf7c560c0" SelfReg="false"/>
+    <ROW File="f4767094f79545a94bc6c060348158169c1475" Component_="f4767094f79545a94bc6c060348158169c1475" FileName="F47670~1|f4767094f79545a94bc6c060348158169c1475" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\ac\f4767094f79545a94bc6c060348158169c1475" SelfReg="false"/>
+    <ROW File="de1360d9a4e9f56e41a2df95aecefdbe1bc0" Component_="de1360d9a4e9f56e41a2df95aecefdbe1bc0" FileName="03DE13~1|03de1360d9a4e9f56e41a2df95aecefdbe1bc0" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\ae\03de1360d9a4e9f56e41a2df95aecefdbe1bc0" SelfReg="false"/>
+    <ROW File="b021996ccc2889151f885d11c5a14fd8835273" Component_="b021996ccc2889151f885d11c5a14fd8835273" FileName="B02199~1|b021996ccc2889151f885d11c5a14fd8835273" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\b5\b021996ccc2889151f885d11c5a14fd8835273" SelfReg="false"/>
+    <ROW File="bd71f791a2d3b4fa1f035b63a87043e461fb" Component_="bd71f791a2d3b4fa1f035b63a87043e461fb" FileName="36BD71~1|36bd71f791a2d3b4fa1f035b63a87043e461fb" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\b6\36bd71f791a2d3b4fa1f035b63a87043e461fb" SelfReg="false"/>
+    <ROW File="ceb2936d0e5a4ab29a11035f2fc7affdd8b31" Component_="bd71f791a2d3b4fa1f035b63a87043e461fb" FileName="6CEB29~1|6ceb2936d0e5a4ab29a11035f2fc7affdd8b31" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\b6\6ceb2936d0e5a4ab29a11035f2fc7affdd8b31" SelfReg="false"/>
+    <ROW File="f069a14cdfe7445fd4ba5de829d5aa596e1363" Component_="bd71f791a2d3b4fa1f035b63a87043e461fb" FileName="F069A1~1|f069a14cdfe7445fd4ba5de829d5aa596e1363" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\b6\f069a14cdfe7445fd4ba5de829d5aa596e1363" SelfReg="false"/>
+    <ROW File="cdf7ce6e1881105872da7185a78fa2e24d4a0" Component_="cdf7ce6e1881105872da7185a78fa2e24d4a0" FileName="9CDF7C~1|9cdf7ce6e1881105872da7185a78fa2e24d4a0" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\ba\9cdf7ce6e1881105872da7185a78fa2e24d4a0" SelfReg="false"/>
+    <ROW File="b6b2dcef14fe52d7cc0a6ff33776cfc497b45d" Component_="cdf7ce6e1881105872da7185a78fa2e24d4a0" FileName="B6B2DC~1|b6b2dcef14fe52d7cc0a6ff33776cfc497b45d" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\ba\b6b2dcef14fe52d7cc0a6ff33776cfc497b45d" SelfReg="false"/>
+    <ROW File="fd344095115099c7f222d655a50c9c68b2793" Component_="fd344095115099c7f222d655a50c9c68b2793" FileName="5FD344~1|5fd344095115099c7f222d655a50c9c68b2793" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\bb\5fd344095115099c7f222d655a50c9c68b2793" SelfReg="false"/>
+    <ROW File="e3a47ea47da9ed3419c85e2e3a88388380073" Component_="e3a47ea47da9ed3419c85e2e3a88388380073" FileName="0E3A47~1|0e3a47ea47da9ed3419c85e2e3a88388380073" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\bc\0e3a47ea47da9ed3419c85e2e3a88388380073" SelfReg="false"/>
+    <ROW File="fbae2bcfece4ddf38a662d03d390034a97387" Component_="fbae2bcfece4ddf38a662d03d390034a97387" FileName="2FBAE2~1|2fbae2bcfece4ddf38a662d03d390034a97387" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\c0\2fbae2bcfece4ddf38a662d03d390034a97387" SelfReg="false"/>
+    <ROW File="f91630f1bd2b6cafe8f704f0ce08a02a0d57c2" Component_="f91630f1bd2b6cafe8f704f0ce08a02a0d57c2" FileName="F91630~1|f91630f1bd2b6cafe8f704f0ce08a02a0d57c2" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\c2\f91630f1bd2b6cafe8f704f0ce08a02a0d57c2" SelfReg="false"/>
+    <ROW File="ef129742f21542c6b772a07a3c9fd97031ad7" Component_="ef129742f21542c6b772a07a3c9fd97031ad7" FileName="7EF129~1|7ef129742f21542c6b772a07a3c9fd97031ad7" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\c6\7ef129742f21542c6b772a07a3c9fd97031ad7" SelfReg="false"/>
+    <ROW File="deb2ffc68a314e1bef6f085001d7fec38e0686" Component_="deb2ffc68a314e1bef6f085001d7fec38e0686" FileName="DEB2FF~1|deb2ffc68a314e1bef6f085001d7fec38e0686" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\c8\deb2ffc68a314e1bef6f085001d7fec38e0686" SelfReg="false"/>
+    <ROW File="eab6323d95234143435df1bc93aee83a82e20b" Component_="eab6323d95234143435df1bc93aee83a82e20b" FileName="EAB632~1|eab6323d95234143435df1bc93aee83a82e20b" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\c9\eab6323d95234143435df1bc93aee83a82e20b" SelfReg="false"/>
+    <ROW File="c2b316af08c566d432feac8ebc54dc9fe0ec74" Component_="c2b316af08c566d432feac8ebc54dc9fe0ec74" FileName="C2B316~1|c2b316af08c566d432feac8ebc54dc9fe0ec74" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\ca\c2b316af08c566d432feac8ebc54dc9fe0ec74" SelfReg="false"/>
+    <ROW File="c0189d0b9855130740cace88485a89985ce5" Component_="c0189d0b9855130740cace88485a89985ce5" FileName="05C018~1|05c0189d0b9855130740cace88485a89985ce5" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\cd\05c0189d0b9855130740cace88485a89985ce5" SelfReg="false"/>
+    <ROW File="fc5a8b4b33404a6d578c5808be4f6b508" Component_="fc5a8b4b33404a6d578c5808be4f6b508" FileName="23359F~1|23359fc5a8b4b33404a6d578c5808be4f6b508" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\ce\23359fc5a8b4b33404a6d578c5808be4f6b508" SelfReg="false"/>
+    <ROW File="ca487b681697a55b84c86ba8d01c845efaa8a4" Component_="ca487b681697a55b84c86ba8d01c845efaa8a4" FileName="CA487B~1|ca487b681697a55b84c86ba8d01c845efaa8a4" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\d7\ca487b681697a55b84c86ba8d01c845efaa8a4" SelfReg="false"/>
+    <ROW File="f2f368f39d401868b2a16ec7ea09ca04c042d1" Component_="f2f368f39d401868b2a16ec7ea09ca04c042d1" FileName="F2F368~1|f2f368f39d401868b2a16ec7ea09ca04c042d1" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\d8\f2f368f39d401868b2a16ec7ea09ca04c042d1" SelfReg="false"/>
+    <ROW File="ebe19f7e4929d773d4ce5f7b16550d8e86c90" Component_="ebe19f7e4929d773d4ce5f7b16550d8e86c90" FileName="2EBE19~1|2ebe19f7e4929d773d4ce5f7b16550d8e86c90" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\dc\2ebe19f7e4929d773d4ce5f7b16550d8e86c90" SelfReg="false"/>
+    <ROW File="a5ab62a611f0d1cc9f894bd20dd12430b0221" Component_="a5ab62a611f0d1cc9f894bd20dd12430b0221" FileName="7A5AB6~1|7a5ab62a611f0d1cc9f894bd20dd12430b0221" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\de\7a5ab62a611f0d1cc9f894bd20dd12430b0221" SelfReg="false"/>
+    <ROW File="ce6319199dc38143054db3a95c9f443fc49d17" Component_="a5ab62a611f0d1cc9f894bd20dd12430b0221" FileName="CE6319~1|ce6319199dc38143054db3a95c9f443fc49d17" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\de\ce6319199dc38143054db3a95c9f443fc49d17" SelfReg="false"/>
+    <ROW File="dab09cf3f52aed540a5accb83b93e7dfe" Component_="dab09cf3f52aed540a5accb83b93e7dfe" FileName="55131D~1|55131dab09cf3f52aed540a5accb83b93e7dfe" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\ee\55131dab09cf3f52aed540a5accb83b93e7dfe" SelfReg="false"/>
+    <ROW File="dc31779b6cab9e3181780a7af957aaa16" Component_="dc31779b6cab9e3181780a7af957aaa16" FileName="46257D~1|46257dc31779b6cab9e3181780a7af957aaa16" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\ef\46257dc31779b6cab9e3181780a7af957aaa16" SelfReg="false"/>
+    <ROW File="eadfd2468eeffae5315b0a89b4d46f88d06c4" Component_="eadfd2468eeffae5315b0a89b4d46f88d06c4" FileName="9EADFD~1|9eadfd2468eeffae5315b0a89b4d46f88d06c4" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\f6\9eadfd2468eeffae5315b0a89b4d46f88d06c4" SelfReg="false"/>
+    <ROW File="cc962f3bcdfd95ff01e9796f86616ad1b2a3" Component_="cc962f3bcdfd95ff01e9796f86616ad1b2a3" FileName="50CC96~1|50cc962f3bcdfd95ff01e9796f86616ad1b2a3" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\ff\50cc962f3bcdfd95ff01e9796f86616ad1b2a3" SelfReg="false"/>
+    <ROW File="c1929a7dba1e175d1d6612f93e8295" Component_="cc962f3bcdfd95ff01e9796f86616ad1b2a3" FileName="905600~1|90560012c1929a7dba1e175d1d6612f93e8295" Version="65535.65535.65535.65535" Attributes="1" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\objects\ff\90560012c1929a7dba1e175d1d6612f93e8295" SelfReg="false"/>
+    <ROW File="master_1" Component_="master_1" FileName="master" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\.git\refs\heads\master" SelfReg="false"/>
+    <ROW File="builtjar.properties" Component_="builtjar.properties" FileName="BUILT-~1.PRO|built-jar.properties" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\built-jar.properties" SelfReg="false"/>
+    <ROW File="dashboardAdmin1.class" Component_="dashboardAdmin1.class" FileName="DASHBO~1.CLA|dashboardAdmin$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\dashboardAdmin$1.class" SelfReg="false"/>
+    <ROW File="dashboardAdmin2.class" Component_="dashboardAdmin1.class" FileName="DASHBO~2.CLA|dashboardAdmin$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\dashboardAdmin$2.class" SelfReg="false"/>
+    <ROW File="dashboardAdmin3.class" Component_="dashboardAdmin1.class" FileName="DASHBO~3.CLA|dashboardAdmin$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\dashboardAdmin$3.class" SelfReg="false"/>
+    <ROW File="dashboardAdmin4.class" Component_="dashboardAdmin1.class" FileName="DASHBO~4.CLA|dashboardAdmin$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\dashboardAdmin$4.class" SelfReg="false"/>
+    <ROW File="dashboardAdmin5.class" Component_="dashboardAdmin1.class" FileName="DASHBO~5.CLA|dashboardAdmin$5.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\dashboardAdmin$5.class" SelfReg="false"/>
+    <ROW File="dashboardAdmin6.class" Component_="dashboardAdmin1.class" FileName="DASHBO~6.CLA|dashboardAdmin$6.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\dashboardAdmin$6.class" SelfReg="false"/>
+    <ROW File="dashboardAdmin7.class" Component_="dashboardAdmin1.class" FileName="DASHBO~7.CLA|dashboardAdmin$7.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\dashboardAdmin$7.class" SelfReg="false"/>
+    <ROW File="dashboardAdmin.class" Component_="dashboardAdmin1.class" FileName="DASHBO~8.CLA|dashboardAdmin.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\dashboardAdmin.class" SelfReg="false"/>
+    <ROW File="mobil1.class" Component_="dashboardAdmin1.class" FileName="MOBIL$~1.CLA|mobil$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\mobil$1.class" SelfReg="false"/>
+    <ROW File="mobil10.class" Component_="dashboardAdmin1.class" FileName="MOBIL$~2.CLA|mobil$10.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\mobil$10.class" SelfReg="false"/>
+    <ROW File="mobil11.class" Component_="dashboardAdmin1.class" FileName="MOBIL$~3.CLA|mobil$11.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\mobil$11.class" SelfReg="false"/>
+    <ROW File="mobil12.class" Component_="dashboardAdmin1.class" FileName="MOBIL$~4.CLA|mobil$12.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\mobil$12.class" SelfReg="false"/>
+    <ROW File="mobil13.class" Component_="dashboardAdmin1.class" FileName="MOBIL$~5.CLA|mobil$13.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\mobil$13.class" SelfReg="false"/>
+    <ROW File="mobil14.class" Component_="dashboardAdmin1.class" FileName="MOBIL$~6.CLA|mobil$14.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\mobil$14.class" SelfReg="false"/>
+    <ROW File="mobil2.class" Component_="dashboardAdmin1.class" FileName="MOBIL$~7.CLA|mobil$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\mobil$2.class" SelfReg="false"/>
+    <ROW File="mobil3.class" Component_="dashboardAdmin1.class" FileName="MOBIL$~8.CLA|mobil$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\mobil$3.class" SelfReg="false"/>
+    <ROW File="mobil4.class" Component_="dashboardAdmin1.class" FileName="MOBIL$~9.CLA|mobil$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\mobil$4.class" SelfReg="false"/>
+    <ROW File="mobil5.class" Component_="dashboardAdmin1.class" FileName="MOBIL~10.CLA|mobil$5.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\mobil$5.class" SelfReg="false"/>
+    <ROW File="mobil6.class" Component_="dashboardAdmin1.class" FileName="MOBIL~11.CLA|mobil$6.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\mobil$6.class" SelfReg="false"/>
+    <ROW File="mobil7.class" Component_="dashboardAdmin1.class" FileName="MOBIL~12.CLA|mobil$7.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\mobil$7.class" SelfReg="false"/>
+    <ROW File="mobil8.class" Component_="dashboardAdmin1.class" FileName="MOBIL~13.CLA|mobil$8.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\mobil$8.class" SelfReg="false"/>
+    <ROW File="mobil9.class" Component_="dashboardAdmin1.class" FileName="MOBIL~14.CLA|mobil$9.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\mobil$9.class" SelfReg="false"/>
+    <ROW File="mobil.class" Component_="dashboardAdmin1.class" FileName="MOBIL~1.CLA|mobil.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\mobil.class" SelfReg="false"/>
+    <ROW File="pegawai1.class" Component_="dashboardAdmin1.class" FileName="PEGAWA~1.CLA|pegawai$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\pegawai$1.class" SelfReg="false"/>
+    <ROW File="pegawai2.class" Component_="dashboardAdmin1.class" FileName="PEGAWA~2.CLA|pegawai$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\pegawai$2.class" SelfReg="false"/>
+    <ROW File="pegawai3.class" Component_="dashboardAdmin1.class" FileName="PEGAWA~3.CLA|pegawai$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\pegawai$3.class" SelfReg="false"/>
+    <ROW File="pegawai4.class" Component_="dashboardAdmin1.class" FileName="PEGAWA~4.CLA|pegawai$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\pegawai$4.class" SelfReg="false"/>
+    <ROW File="pegawai5.class" Component_="dashboardAdmin1.class" FileName="PEGAWA~5.CLA|pegawai$5.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\pegawai$5.class" SelfReg="false"/>
+    <ROW File="pegawai6.class" Component_="dashboardAdmin1.class" FileName="PEGAWA~6.CLA|pegawai$6.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\pegawai$6.class" SelfReg="false"/>
+    <ROW File="pegawai7.class" Component_="dashboardAdmin1.class" FileName="PEGAWA~7.CLA|pegawai$7.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\pegawai$7.class" SelfReg="false"/>
+    <ROW File="pegawai8.class" Component_="dashboardAdmin1.class" FileName="PEGAWA~8.CLA|pegawai$8.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\pegawai$8.class" SelfReg="false"/>
+    <ROW File="pegawai9.class" Component_="dashboardAdmin1.class" FileName="PEGAWA~9.CLA|pegawai$9.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\pegawai$9.class" SelfReg="false"/>
+    <ROW File="pegawai.class" Component_="dashboardAdmin1.class" FileName="PEGAW~10.CLA|pegawai.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\pegawai.class" SelfReg="false"/>
+    <ROW File="pembayaran1.class" Component_="dashboardAdmin1.class" FileName="PEMBAY~1.CLA|pembayaran$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\pembayaran$1.class" SelfReg="false"/>
+    <ROW File="pembayaran2.class" Component_="dashboardAdmin1.class" FileName="PEMBAY~2.CLA|pembayaran$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\pembayaran$2.class" SelfReg="false"/>
+    <ROW File="pembayaran3.class" Component_="dashboardAdmin1.class" FileName="PEMBAY~3.CLA|pembayaran$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\pembayaran$3.class" SelfReg="false"/>
+    <ROW File="pembayaran4.class" Component_="dashboardAdmin1.class" FileName="PEMBAY~4.CLA|pembayaran$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\pembayaran$4.class" SelfReg="false"/>
+    <ROW File="pembayaran5.class" Component_="dashboardAdmin1.class" FileName="PEMBAY~5.CLA|pembayaran$5.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\pembayaran$5.class" SelfReg="false"/>
+    <ROW File="pembayaran6.class" Component_="dashboardAdmin1.class" FileName="PEMBAY~6.CLA|pembayaran$6.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\pembayaran$6.class" SelfReg="false"/>
+    <ROW File="pembayaran7.class" Component_="dashboardAdmin1.class" FileName="PEMBAY~7.CLA|pembayaran$7.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\pembayaran$7.class" SelfReg="false"/>
+    <ROW File="pembayaran8.class" Component_="dashboardAdmin1.class" FileName="PEMBAY~8.CLA|pembayaran$8.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\pembayaran$8.class" SelfReg="false"/>
+    <ROW File="pembayaran.class" Component_="dashboardAdmin1.class" FileName="PEMBAY~9.CLA|pembayaran.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\pembayaran.class" SelfReg="false"/>
+    <ROW File="rental1.class" Component_="dashboardAdmin1.class" FileName="RENTAL~1.CLA|rental$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\rental$1.class" SelfReg="false"/>
+    <ROW File="rental2.class" Component_="dashboardAdmin1.class" FileName="RENTAL~2.CLA|rental$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\rental$2.class" SelfReg="false"/>
+    <ROW File="rental3.class" Component_="dashboardAdmin1.class" FileName="RENTAL~3.CLA|rental$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\rental$3.class" SelfReg="false"/>
+    <ROW File="rental4.class" Component_="dashboardAdmin1.class" FileName="RENTAL~4.CLA|rental$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\rental$4.class" SelfReg="false"/>
+    <ROW File="rental5.class" Component_="dashboardAdmin1.class" FileName="RENTAL~5.CLA|rental$5.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\rental$5.class" SelfReg="false"/>
+    <ROW File="rental6.class" Component_="dashboardAdmin1.class" FileName="RENTAL~6.CLA|rental$6.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\rental$6.class" SelfReg="false"/>
+    <ROW File="rental7.class" Component_="dashboardAdmin1.class" FileName="RENTAL~7.CLA|rental$7.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\rental$7.class" SelfReg="false"/>
+    <ROW File="rental8.class" Component_="dashboardAdmin1.class" FileName="RENTAL~8.CLA|rental$8.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\rental$8.class" SelfReg="false"/>
+    <ROW File="rental.class" Component_="dashboardAdmin1.class" FileName="RENTAL~9.CLA|rental.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\rental.class" SelfReg="false"/>
+    <ROW File="users1.class" Component_="dashboardAdmin1.class" FileName="USERS$~1.CLA|users$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\users$1.class" SelfReg="false"/>
+    <ROW File="users2.class" Component_="dashboardAdmin1.class" FileName="USERS$~2.CLA|users$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\users$2.class" SelfReg="false"/>
+    <ROW File="users3.class" Component_="dashboardAdmin1.class" FileName="USERS$~3.CLA|users$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\users$3.class" SelfReg="false"/>
+    <ROW File="users4.class" Component_="dashboardAdmin1.class" FileName="USERS$~4.CLA|users$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\users$4.class" SelfReg="false"/>
+    <ROW File="users5.class" Component_="dashboardAdmin1.class" FileName="USERS$~5.CLA|users$5.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\users$5.class" SelfReg="false"/>
+    <ROW File="users6.class" Component_="dashboardAdmin1.class" FileName="USERS$~6.CLA|users$6.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\users$6.class" SelfReg="false"/>
+    <ROW File="users7.class" Component_="dashboardAdmin1.class" FileName="USERS$~7.CLA|users$7.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\users$7.class" SelfReg="false"/>
+    <ROW File="users8.class" Component_="dashboardAdmin1.class" FileName="USERS$~8.CLA|users$8.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\users$8.class" SelfReg="false"/>
+    <ROW File="users9.class" Component_="dashboardAdmin1.class" FileName="USERS$~9.CLA|users$9.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\users$9.class" SelfReg="false"/>
+    <ROW File="users.class" Component_="dashboardAdmin1.class" FileName="USERS~1.CLA|users.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\admin\users.class" SelfReg="false"/>
+    <ROW File="changePassword1.class" Component_="changePassword1.class" FileName="CHANGE~1.CLA|changePassword$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\auth\changePassword$1.class" SelfReg="false"/>
+    <ROW File="changePassword2.class" Component_="changePassword1.class" FileName="CHANGE~2.CLA|changePassword$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\auth\changePassword$2.class" SelfReg="false"/>
+    <ROW File="changePassword.class" Component_="changePassword1.class" FileName="CHANGE~3.CLA|changePassword.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\auth\changePassword.class" SelfReg="false"/>
+    <ROW File="login1.class" Component_="changePassword1.class" FileName="LOGIN$~1.CLA|login$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\auth\login$1.class" SelfReg="false"/>
+    <ROW File="login2.class" Component_="changePassword1.class" FileName="LOGIN$~2.CLA|login$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\auth\login$2.class" SelfReg="false"/>
+    <ROW File="login3.class" Component_="changePassword1.class" FileName="LOGIN$~3.CLA|login$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\auth\login$3.class" SelfReg="false"/>
+    <ROW File="login.class" Component_="changePassword1.class" FileName="LOGIN~1.CLA|login.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\auth\login.class" SelfReg="false"/>
+    <ROW File="main1.class" Component_="changePassword1.class" FileName="MAIN$1~1.CLA|main$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\auth\main$1.class" SelfReg="false"/>
+    <ROW File="main2.class" Component_="changePassword1.class" FileName="MAIN$2~1.CLA|main$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\auth\main$2.class" SelfReg="false"/>
+    <ROW File="main3.class" Component_="changePassword1.class" FileName="MAIN$3~1.CLA|main$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\auth\main$3.class" SelfReg="false"/>
+    <ROW File="main.class" Component_="changePassword1.class" FileName="MAIN~1.CLA|main.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\auth\main.class" SelfReg="false"/>
+    <ROW File="register1.class" Component_="changePassword1.class" FileName="REGIST~1.CLA|register$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\auth\register$1.class" SelfReg="false"/>
+    <ROW File="register2.class" Component_="changePassword1.class" FileName="REGIST~2.CLA|register$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\auth\register$2.class" SelfReg="false"/>
+    <ROW File="register3.class" Component_="changePassword1.class" FileName="REGIST~3.CLA|register$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\auth\register$3.class" SelfReg="false"/>
+    <ROW File="register4.class" Component_="changePassword1.class" FileName="REGIST~4.CLA|register$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\auth\register$4.class" SelfReg="false"/>
+    <ROW File="register.class" Component_="changePassword1.class" FileName="REGIST~5.CLA|register.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\auth\register.class" SelfReg="false"/>
+    <ROW File="databaseConnection.class" Component_="databaseConnection.class" FileName="DATABA~1.CLA|databaseConnection.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\config\databaseConnection.class" SelfReg="false"/>
+    <ROW File="hashUtil.class" Component_="databaseConnection.class" FileName="HASHUT~1.CLA|hashUtil.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\config\hashUtil.class" SelfReg="false"/>
+    <ROW File="userSession.class" Component_="databaseConnection.class" FileName="USERSE~1.CLA|userSession.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\config\userSession.class" SelfReg="false"/>
+    <ROW File="dashboardPegawai1.class" Component_="dashboardPegawai1.class" FileName="DASHBO~1.CLA|dashboardPegawai$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\dashboardPegawai$1.class" SelfReg="false"/>
+    <ROW File="dashboardPegawai2.class" Component_="dashboardPegawai1.class" FileName="DASHBO~2.CLA|dashboardPegawai$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\dashboardPegawai$2.class" SelfReg="false"/>
+    <ROW File="dashboardPegawai3.class" Component_="dashboardPegawai1.class" FileName="DASHBO~3.CLA|dashboardPegawai$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\dashboardPegawai$3.class" SelfReg="false"/>
+    <ROW File="dashboardPegawai4.class" Component_="dashboardPegawai1.class" FileName="DASHBO~4.CLA|dashboardPegawai$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\dashboardPegawai$4.class" SelfReg="false"/>
+    <ROW File="dashboardPegawai5.class" Component_="dashboardPegawai1.class" FileName="DASHBO~5.CLA|dashboardPegawai$5.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\dashboardPegawai$5.class" SelfReg="false"/>
+    <ROW File="dashboardPegawai6.class" Component_="dashboardPegawai1.class" FileName="DASHBO~6.CLA|dashboardPegawai$6.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\dashboardPegawai$6.class" SelfReg="false"/>
+    <ROW File="dashboardPegawai7.class" Component_="dashboardPegawai1.class" FileName="DASHBO~7.CLA|dashboardPegawai$7.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\dashboardPegawai$7.class" SelfReg="false"/>
+    <ROW File="dashboardPegawai.class" Component_="dashboardPegawai1.class" FileName="DASHBO~8.CLA|dashboardPegawai.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\dashboardPegawai.class" SelfReg="false"/>
+    <ROW File="mobil1.class_1" Component_="dashboardPegawai1.class" FileName="MOBIL$~1.CLA|mobil$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\mobil$1.class" SelfReg="false"/>
+    <ROW File="mobil10.class_1" Component_="dashboardPegawai1.class" FileName="MOBIL$~2.CLA|mobil$10.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\mobil$10.class" SelfReg="false"/>
+    <ROW File="mobil11.class_1" Component_="dashboardPegawai1.class" FileName="MOBIL$~3.CLA|mobil$11.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\mobil$11.class" SelfReg="false"/>
+    <ROW File="mobil12.class_1" Component_="dashboardPegawai1.class" FileName="MOBIL$~4.CLA|mobil$12.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\mobil$12.class" SelfReg="false"/>
+    <ROW File="mobil13.class_1" Component_="dashboardPegawai1.class" FileName="MOBIL$~5.CLA|mobil$13.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\mobil$13.class" SelfReg="false"/>
+    <ROW File="mobil14.class_1" Component_="dashboardPegawai1.class" FileName="MOBIL$~6.CLA|mobil$14.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\mobil$14.class" SelfReg="false"/>
+    <ROW File="mobil2.class_1" Component_="dashboardPegawai1.class" FileName="MOBIL$~7.CLA|mobil$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\mobil$2.class" SelfReg="false"/>
+    <ROW File="mobil3.class_1" Component_="dashboardPegawai1.class" FileName="MOBIL$~8.CLA|mobil$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\mobil$3.class" SelfReg="false"/>
+    <ROW File="mobil4.class_1" Component_="dashboardPegawai1.class" FileName="MOBIL$~9.CLA|mobil$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\mobil$4.class" SelfReg="false"/>
+    <ROW File="mobil5.class_1" Component_="dashboardPegawai1.class" FileName="MOBIL~10.CLA|mobil$5.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\mobil$5.class" SelfReg="false"/>
+    <ROW File="mobil6.class_1" Component_="dashboardPegawai1.class" FileName="MOBIL~11.CLA|mobil$6.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\mobil$6.class" SelfReg="false"/>
+    <ROW File="mobil7.class_1" Component_="dashboardPegawai1.class" FileName="MOBIL~12.CLA|mobil$7.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\mobil$7.class" SelfReg="false"/>
+    <ROW File="mobil8.class_1" Component_="dashboardPegawai1.class" FileName="MOBIL~13.CLA|mobil$8.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\mobil$8.class" SelfReg="false"/>
+    <ROW File="mobil9.class_1" Component_="dashboardPegawai1.class" FileName="MOBIL~14.CLA|mobil$9.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\mobil$9.class" SelfReg="false"/>
+    <ROW File="mobil.class_1" Component_="dashboardPegawai1.class" FileName="MOBIL~1.CLA|mobil.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\mobil.class" SelfReg="false"/>
+    <ROW File="pegawai1.class_1" Component_="dashboardPegawai1.class" FileName="PEGAWA~1.CLA|pegawai$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\pegawai$1.class" SelfReg="false"/>
+    <ROW File="pegawai2.class_1" Component_="dashboardPegawai1.class" FileName="PEGAWA~2.CLA|pegawai$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\pegawai$2.class" SelfReg="false"/>
+    <ROW File="pegawai3.class_1" Component_="dashboardPegawai1.class" FileName="PEGAWA~3.CLA|pegawai$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\pegawai$3.class" SelfReg="false"/>
+    <ROW File="pegawai4.class_1" Component_="dashboardPegawai1.class" FileName="PEGAWA~4.CLA|pegawai$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\pegawai$4.class" SelfReg="false"/>
+    <ROW File="pegawai.class_1" Component_="dashboardPegawai1.class" FileName="PEGAWA~5.CLA|pegawai.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\pegawai.class" SelfReg="false"/>
+    <ROW File="pembayaran1.class_1" Component_="dashboardPegawai1.class" FileName="PEMBAY~1.CLA|pembayaran$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\pembayaran$1.class" SelfReg="false"/>
+    <ROW File="pembayaran2.class_1" Component_="dashboardPegawai1.class" FileName="PEMBAY~2.CLA|pembayaran$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\pembayaran$2.class" SelfReg="false"/>
+    <ROW File="pembayaran3.class_1" Component_="dashboardPegawai1.class" FileName="PEMBAY~3.CLA|pembayaran$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\pembayaran$3.class" SelfReg="false"/>
+    <ROW File="pembayaran4.class_1" Component_="dashboardPegawai1.class" FileName="PEMBAY~4.CLA|pembayaran$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\pembayaran$4.class" SelfReg="false"/>
+    <ROW File="pembayaran5.class_1" Component_="dashboardPegawai1.class" FileName="PEMBAY~5.CLA|pembayaran$5.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\pembayaran$5.class" SelfReg="false"/>
+    <ROW File="pembayaran6.class_1" Component_="dashboardPegawai1.class" FileName="PEMBAY~6.CLA|pembayaran$6.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\pembayaran$6.class" SelfReg="false"/>
+    <ROW File="pembayaran7.class_1" Component_="dashboardPegawai1.class" FileName="PEMBAY~7.CLA|pembayaran$7.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\pembayaran$7.class" SelfReg="false"/>
+    <ROW File="pembayaran.class_1" Component_="dashboardPegawai1.class" FileName="PEMBAY~8.CLA|pembayaran.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\pembayaran.class" SelfReg="false"/>
+    <ROW File="rental1.class_1" Component_="dashboardPegawai1.class" FileName="RENTAL~1.CLA|rental$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\rental$1.class" SelfReg="false"/>
+    <ROW File="rental2.class_1" Component_="dashboardPegawai1.class" FileName="RENTAL~2.CLA|rental$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\rental$2.class" SelfReg="false"/>
+    <ROW File="rental3.class_1" Component_="dashboardPegawai1.class" FileName="RENTAL~3.CLA|rental$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\rental$3.class" SelfReg="false"/>
+    <ROW File="rental4.class_1" Component_="dashboardPegawai1.class" FileName="RENTAL~4.CLA|rental$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\rental$4.class" SelfReg="false"/>
+    <ROW File="rental5.class_1" Component_="dashboardPegawai1.class" FileName="RENTAL~5.CLA|rental$5.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\rental$5.class" SelfReg="false"/>
+    <ROW File="rental6.class_1" Component_="dashboardPegawai1.class" FileName="RENTAL~6.CLA|rental$6.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\rental$6.class" SelfReg="false"/>
+    <ROW File="rental7.class_1" Component_="dashboardPegawai1.class" FileName="RENTAL~7.CLA|rental$7.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\rental$7.class" SelfReg="false"/>
+    <ROW File="rental.class_1" Component_="dashboardPegawai1.class" FileName="RENTAL~8.CLA|rental.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\rental.class" SelfReg="false"/>
+    <ROW File="users1.class_1" Component_="dashboardPegawai1.class" FileName="USERS$~1.CLA|users$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\users$1.class" SelfReg="false"/>
+    <ROW File="users2.class_1" Component_="dashboardPegawai1.class" FileName="USERS$~2.CLA|users$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\users$2.class" SelfReg="false"/>
+    <ROW File="users3.class_1" Component_="dashboardPegawai1.class" FileName="USERS$~3.CLA|users$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\users$3.class" SelfReg="false"/>
+    <ROW File="users4.class_1" Component_="dashboardPegawai1.class" FileName="USERS$~4.CLA|users$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\users$4.class" SelfReg="false"/>
+    <ROW File="users5.class_1" Component_="dashboardPegawai1.class" FileName="USERS$~5.CLA|users$5.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\users$5.class" SelfReg="false"/>
+    <ROW File="users6.class_1" Component_="dashboardPegawai1.class" FileName="USERS$~6.CLA|users$6.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\users$6.class" SelfReg="false"/>
+    <ROW File="users7.class_1" Component_="dashboardPegawai1.class" FileName="USERS$~7.CLA|users$7.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\users$7.class" SelfReg="false"/>
+    <ROW File="users8.class_1" Component_="dashboardPegawai1.class" FileName="USERS$~8.CLA|users$8.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\users$8.class" SelfReg="false"/>
+    <ROW File="users.class_1" Component_="dashboardPegawai1.class" FileName="USERS~1.CLA|users.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pegawai\users.class" SelfReg="false"/>
+    <ROW File="dashboardPelanggan1.class" Component_="dashboardPelanggan1.class" FileName="DASHBO~1.CLA|dashboardPelanggan$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\dashboardPelanggan$1.class" SelfReg="false"/>
+    <ROW File="dashboardPelanggan2.class" Component_="dashboardPelanggan1.class" FileName="DASHBO~2.CLA|dashboardPelanggan$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\dashboardPelanggan$2.class" SelfReg="false"/>
+    <ROW File="dashboardPelanggan3.class" Component_="dashboardPelanggan1.class" FileName="DASHBO~3.CLA|dashboardPelanggan$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\dashboardPelanggan$3.class" SelfReg="false"/>
+    <ROW File="dashboardPelanggan4.class" Component_="dashboardPelanggan1.class" FileName="DASHBO~4.CLA|dashboardPelanggan$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\dashboardPelanggan$4.class" SelfReg="false"/>
+    <ROW File="dashboardPelanggan5.class" Component_="dashboardPelanggan1.class" FileName="DASHBO~5.CLA|dashboardPelanggan$5.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\dashboardPelanggan$5.class" SelfReg="false"/>
+    <ROW File="dashboardPelanggan6.class" Component_="dashboardPelanggan1.class" FileName="DASHBO~6.CLA|dashboardPelanggan$6.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\dashboardPelanggan$6.class" SelfReg="false"/>
+    <ROW File="dashboardPelanggan.class" Component_="dashboardPelanggan1.class" FileName="DASHBO~7.CLA|dashboardPelanggan.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\dashboardPelanggan.class" SelfReg="false"/>
+    <ROW File="mobil1.class_2" Component_="dashboardPelanggan1.class" FileName="MOBIL$~1.CLA|mobil$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\mobil$1.class" SelfReg="false"/>
+    <ROW File="mobil2.class_2" Component_="dashboardPelanggan1.class" FileName="MOBIL$~2.CLA|mobil$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\mobil$2.class" SelfReg="false"/>
+    <ROW File="mobil3.class_2" Component_="dashboardPelanggan1.class" FileName="MOBIL$~3.CLA|mobil$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\mobil$3.class" SelfReg="false"/>
+    <ROW File="mobil.class_2" Component_="dashboardPelanggan1.class" FileName="MOBIL~1.CLA|mobil.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\mobil.class" SelfReg="false"/>
+    <ROW File="pembayaran1.class_2" Component_="dashboardPelanggan1.class" FileName="PEMBAY~1.CLA|pembayaran$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\pembayaran$1.class" SelfReg="false"/>
+    <ROW File="pembayaran2.class_2" Component_="dashboardPelanggan1.class" FileName="PEMBAY~2.CLA|pembayaran$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\pembayaran$2.class" SelfReg="false"/>
+    <ROW File="pembayaran3.class_2" Component_="dashboardPelanggan1.class" FileName="PEMBAY~3.CLA|pembayaran$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\pembayaran$3.class" SelfReg="false"/>
+    <ROW File="pembayaran4.class_2" Component_="dashboardPelanggan1.class" FileName="PEMBAY~4.CLA|pembayaran$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\pembayaran$4.class" SelfReg="false"/>
+    <ROW File="pembayaran5.class_2" Component_="dashboardPelanggan1.class" FileName="PEMBAY~5.CLA|pembayaran$5.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\pembayaran$5.class" SelfReg="false"/>
+    <ROW File="pembayaran6.class_2" Component_="dashboardPelanggan1.class" FileName="PEMBAY~6.CLA|pembayaran$6.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\pembayaran$6.class" SelfReg="false"/>
+    <ROW File="pembayaran7.class_2" Component_="dashboardPelanggan1.class" FileName="PEMBAY~7.CLA|pembayaran$7.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\pembayaran$7.class" SelfReg="false"/>
+    <ROW File="pembayaran.class_2" Component_="dashboardPelanggan1.class" FileName="PEMBAY~8.CLA|pembayaran.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\pembayaran.class" SelfReg="false"/>
+    <ROW File="rental1.class_2" Component_="dashboardPelanggan1.class" FileName="RENTAL~1.CLA|rental$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\rental$1.class" SelfReg="false"/>
+    <ROW File="rental2.class_2" Component_="dashboardPelanggan1.class" FileName="RENTAL~2.CLA|rental$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\rental$2.class" SelfReg="false"/>
+    <ROW File="rental3.class_2" Component_="dashboardPelanggan1.class" FileName="RENTAL~3.CLA|rental$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\rental$3.class" SelfReg="false"/>
+    <ROW File="rental4.class_2" Component_="dashboardPelanggan1.class" FileName="RENTAL~4.CLA|rental$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\rental$4.class" SelfReg="false"/>
+    <ROW File="rental5.class_2" Component_="dashboardPelanggan1.class" FileName="RENTAL~5.CLA|rental$5.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\rental$5.class" SelfReg="false"/>
+    <ROW File="rental6.class_2" Component_="dashboardPelanggan1.class" FileName="RENTAL~6.CLA|rental$6.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\rental$6.class" SelfReg="false"/>
+    <ROW File="rental7.class_2" Component_="dashboardPelanggan1.class" FileName="RENTAL~7.CLA|rental$7.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\rental$7.class" SelfReg="false"/>
+    <ROW File="rental8.class_1" Component_="dashboardPelanggan1.class" FileName="RENTAL~8.CLA|rental$8.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\rental$8.class" SelfReg="false"/>
+    <ROW File="rental9.class" Component_="dashboardPelanggan1.class" FileName="RENTAL~9.CLA|rental$9.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\rental$9.class" SelfReg="false"/>
+    <ROW File="rental.class_2" Component_="dashboardPelanggan1.class" FileName="RENTA~10.CLA|rental.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\rental.class" SelfReg="false"/>
+    <ROW File="users1.class_2" Component_="dashboardPelanggan1.class" FileName="USERS$~1.CLA|users$1.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\users$1.class" SelfReg="false"/>
+    <ROW File="users2.class_2" Component_="dashboardPelanggan1.class" FileName="USERS$~2.CLA|users$2.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\users$2.class" SelfReg="false"/>
+    <ROW File="users3.class_2" Component_="dashboardPelanggan1.class" FileName="USERS$~3.CLA|users$3.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\users$3.class" SelfReg="false"/>
+    <ROW File="users4.class_2" Component_="dashboardPelanggan1.class" FileName="USERS$~4.CLA|users$4.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\users$4.class" SelfReg="false"/>
+    <ROW File="users5.class_2" Component_="dashboardPelanggan1.class" FileName="USERS$~5.CLA|users$5.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\users$5.class" SelfReg="false"/>
+    <ROW File="users.class_2" Component_="dashboardPelanggan1.class" FileName="USERS~1.CLA|users.class" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build\classes\pelanggan\users.class" SelfReg="false"/>
+    <ROW File="build.xml" Component_="build.xml" FileName="build.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\build.xml" SelfReg="false"/>
+    <ROW File="Akfizrennurjend.jar" Component_="Akfizrennurjend.jar" FileName="AKFIZR~1.JAR|Akfizrennurjend.jar" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\dist\Akfizrennurjend.jar" SelfReg="false"/>
+    <ROW File="mysqlconnectorj9.3.0.jar" Component_="mysqlconnectorj9.3.0.jar" FileName="MYSQL-~1.JAR|mysql-connector-j-9.3.0.jar" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\dist\lib\mysql-connector-j-9.3.0.jar" SelfReg="false"/>
+    <ROW File="README.TXT" Component_="Akfizrennurjend.jar" FileName="README.TXT" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\dist\README.TXT" SelfReg="false"/>
+    <ROW File="manifest.mf" Component_="build.xml" FileName="manifest.mf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\manifest.mf" SelfReg="false"/>
+    <ROW File="buildimpl.xml" Component_="buildimpl.xml" FileName="BUILD-~1.XML|build-impl.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\nbproject\build-impl.xml" SelfReg="false"/>
+    <ROW File="genfiles.properties" Component_="buildimpl.xml" FileName="GENFIL~1.PRO|genfiles.properties" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\nbproject\genfiles.properties" SelfReg="false"/>
+    <ROW File="private.properties" Component_="private.properties" FileName="PRIVAT~1.PRO|private.properties" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\nbproject\private\private.properties" SelfReg="false"/>
+    <ROW File="private.xml" Component_="private.properties" FileName="private.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\nbproject\private\private.xml" SelfReg="false"/>
+    <ROW File="project.properties" Component_="buildimpl.xml" FileName="PROJEC~1.PRO|project.properties" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\nbproject\project.properties" SelfReg="false"/>
+    <ROW File="project.xml" Component_="buildimpl.xml" FileName="project.xml" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\nbproject\project.xml" SelfReg="false"/>
+    <ROW File="dashboardAdmin.form" Component_="dashboardAdmin.form" FileName="DASHBO~1.FOR|dashboardAdmin.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\admin\dashboardAdmin.form" SelfReg="false"/>
+    <ROW File="dashboardAdmin.java" Component_="dashboardAdmin.form" FileName="DASHBO~1.JAV|dashboardAdmin.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\admin\dashboardAdmin.java" SelfReg="false"/>
+    <ROW File="mobil.form" Component_="dashboardAdmin.form" FileName="MOBIL~1.FOR|mobil.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\admin\mobil.form" SelfReg="false"/>
+    <ROW File="mobil.java" Component_="dashboardAdmin.form" FileName="MOBIL~1.JAV|mobil.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\admin\mobil.java" SelfReg="false"/>
+    <ROW File="pegawai.form" Component_="dashboardAdmin.form" FileName="PEGAWA~1.FOR|pegawai.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\admin\pegawai.form" SelfReg="false"/>
+    <ROW File="pegawai.java" Component_="dashboardAdmin.form" FileName="PEGAWA~1.JAV|pegawai.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\admin\pegawai.java" SelfReg="false"/>
+    <ROW File="pembayaran.form" Component_="dashboardAdmin.form" FileName="PEMBAY~1.FOR|pembayaran.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\admin\pembayaran.form" SelfReg="false"/>
+    <ROW File="pembayaran.java" Component_="dashboardAdmin.form" FileName="PEMBAY~1.JAV|pembayaran.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\admin\pembayaran.java" SelfReg="false"/>
+    <ROW File="rental.form" Component_="dashboardAdmin.form" FileName="RENTAL~1.FOR|rental.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\admin\rental.form" SelfReg="false"/>
+    <ROW File="rental.java" Component_="dashboardAdmin.form" FileName="RENTAL~1.JAV|rental.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\admin\rental.java" SelfReg="false"/>
+    <ROW File="users.form" Component_="dashboardAdmin.form" FileName="USERS~1.FOR|users.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\admin\users.form" SelfReg="false"/>
+    <ROW File="users.java" Component_="dashboardAdmin.form" FileName="USERS~1.JAV|users.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\admin\users.java" SelfReg="false"/>
+    <ROW File="changePassword.form" Component_="changePassword.form" FileName="CHANGE~1.FOR|changePassword.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\auth\changePassword.form" SelfReg="false"/>
+    <ROW File="changePassword.java" Component_="changePassword.form" FileName="CHANGE~1.JAV|changePassword.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\auth\changePassword.java" SelfReg="false"/>
+    <ROW File="login.form" Component_="changePassword.form" FileName="LOGIN~1.FOR|login.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\auth\login.form" SelfReg="false"/>
+    <ROW File="login.java" Component_="changePassword.form" FileName="LOGIN~1.JAV|login.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\auth\login.java" SelfReg="false"/>
+    <ROW File="main.form" Component_="changePassword.form" FileName="MAIN~1.FOR|main.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\auth\main.form" SelfReg="false"/>
+    <ROW File="main.java" Component_="changePassword.form" FileName="MAIN~1.JAV|main.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\auth\main.java" SelfReg="false"/>
+    <ROW File="register.form" Component_="changePassword.form" FileName="REGIST~1.FOR|register.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\auth\register.form" SelfReg="false"/>
+    <ROW File="register.java" Component_="changePassword.form" FileName="REGIST~1.JAV|register.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\auth\register.java" SelfReg="false"/>
+    <ROW File="databaseConnection.java" Component_="databaseConnection.java" FileName="DATABA~1.JAV|databaseConnection.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\config\databaseConnection.java" SelfReg="false"/>
+    <ROW File="hashUtil.java" Component_="databaseConnection.java" FileName="HASHUT~1.JAV|hashUtil.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\config\hashUtil.java" SelfReg="false"/>
+    <ROW File="userSession.java" Component_="databaseConnection.java" FileName="USERSE~1.JAV|userSession.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\config\userSession.java" SelfReg="false"/>
+    <ROW File="dashboardPegawai.form" Component_="dashboardPegawai.form" FileName="DASHBO~1.FOR|dashboardPegawai.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\pegawai\dashboardPegawai.form" SelfReg="false"/>
+    <ROW File="dashboardPegawai.java" Component_="dashboardPegawai.form" FileName="DASHBO~1.JAV|dashboardPegawai.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\pegawai\dashboardPegawai.java" SelfReg="false"/>
+    <ROW File="mobil.form_1" Component_="dashboardPegawai.form" FileName="MOBIL~1.FOR|mobil.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\pegawai\mobil.form" SelfReg="false"/>
+    <ROW File="mobil.java_1" Component_="dashboardPegawai.form" FileName="MOBIL~1.JAV|mobil.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\pegawai\mobil.java" SelfReg="false"/>
+    <ROW File="pegawai.form_1" Component_="dashboardPegawai.form" FileName="PEGAWA~1.FOR|pegawai.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\pegawai\pegawai.form" SelfReg="false"/>
+    <ROW File="pegawai.java_1" Component_="dashboardPegawai.form" FileName="PEGAWA~1.JAV|pegawai.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\pegawai\pegawai.java" SelfReg="false"/>
+    <ROW File="pembayaran.form_1" Component_="dashboardPegawai.form" FileName="PEMBAY~1.FOR|pembayaran.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\pegawai\pembayaran.form" SelfReg="false"/>
+    <ROW File="pembayaran.java_1" Component_="dashboardPegawai.form" FileName="PEMBAY~1.JAV|pembayaran.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\pegawai\pembayaran.java" SelfReg="false"/>
+    <ROW File="rental.form_1" Component_="dashboardPegawai.form" FileName="RENTAL~1.FOR|rental.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\pegawai\rental.form" SelfReg="false"/>
+    <ROW File="rental.java_1" Component_="dashboardPegawai.form" FileName="RENTAL~1.JAV|rental.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\pegawai\rental.java" SelfReg="false"/>
+    <ROW File="users.form_1" Component_="dashboardPegawai.form" FileName="USERS~1.FOR|users.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\pegawai\users.form" SelfReg="false"/>
+    <ROW File="users.java_1" Component_="dashboardPegawai.form" FileName="USERS~1.JAV|users.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\pegawai\users.java" SelfReg="false"/>
+    <ROW File="dashboardPelanggan.form" Component_="dashboardPelanggan.form" FileName="DASHBO~1.FOR|dashboardPelanggan.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\pelanggan\dashboardPelanggan.form" SelfReg="false"/>
+    <ROW File="dashboardPelanggan.java" Component_="dashboardPelanggan.form" FileName="DASHBO~1.JAV|dashboardPelanggan.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\pelanggan\dashboardPelanggan.java" SelfReg="false"/>
+    <ROW File="mobil.form_2" Component_="dashboardPelanggan.form" FileName="MOBIL~1.FOR|mobil.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\pelanggan\mobil.form" SelfReg="false"/>
+    <ROW File="mobil.java_2" Component_="dashboardPelanggan.form" FileName="MOBIL~1.JAV|mobil.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\pelanggan\mobil.java" SelfReg="false"/>
+    <ROW File="pembayaran.form_2" Component_="dashboardPelanggan.form" FileName="PEMBAY~1.FOR|pembayaran.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\pelanggan\pembayaran.form" SelfReg="false"/>
+    <ROW File="pembayaran.java_2" Component_="dashboardPelanggan.form" FileName="PEMBAY~1.JAV|pembayaran.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\pelanggan\pembayaran.java" SelfReg="false"/>
+    <ROW File="rental.form_2" Component_="dashboardPelanggan.form" FileName="RENTAL~1.FOR|rental.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\pelanggan\rental.form" SelfReg="false"/>
+    <ROW File="rental.java_2" Component_="dashboardPelanggan.form" FileName="RENTAL~1.JAV|rental.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\pelanggan\rental.java" SelfReg="false"/>
+    <ROW File="users.form_2" Component_="dashboardPelanggan.form" FileName="USERS~1.FOR|users.form" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\pelanggan\users.form" SelfReg="false"/>
+    <ROW File="users.java_2" Component_="dashboardPelanggan.form" FileName="USERS~1.JAV|users.java" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\Akfizrennurjend\Akfizrennurjend\src\pelanggan\users.java" SelfReg="false"/>
+    <ROW File="Demo.exe" Component_="Demo.exe" FileName="AKFIZR~1.EXE|Akfizrennurjend.exe" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_STUBS_64&gt;aijclw.exe" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="Themes.aip" Path="&lt;AI_FRAGS&gt;Themes.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+    <ROW Directory_="SHORTCUTDIR" Component_="SHORTCUTDIR" ManualDelete="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Type="65" Source="aicustact.dll" Target="PreserveInstallType"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="COMMIT_EDITMSG"/>
+    <ROW Feature_="MainFeature" Component_="HEAD"/>
+    <ROW Feature_="MainFeature" Component_="master"/>
+    <ROW Feature_="MainFeature" Component_="b696531cc9f31683ae13e9e6afcb51917b1b"/>
+    <ROW Feature_="MainFeature" Component_="a69cc5bc66d8872b5fa4b983772a6305786c"/>
+    <ROW Feature_="MainFeature" Component_="af2ef207d542437a0fd912ba0b2f8b9a62898e"/>
+    <ROW Feature_="MainFeature" Component_="aa7bbad7517940d5fd2f81d6d3ae511dc67ae"/>
+    <ROW Feature_="MainFeature" Component_="c0415ed766e95f1739949c1ad21ec39c3fb36a"/>
+    <ROW Feature_="MainFeature" Component_="a81a6d4517f4a568770dcec1a1285f5dddd56"/>
+    <ROW Feature_="MainFeature" Component_="ebeaedc707989c26286d4a321d97eef873"/>
+    <ROW Feature_="MainFeature" Component_="a16da3a7a71f5c76189b80bab942537292e5d"/>
+    <ROW Feature_="MainFeature" Component_="e8e5bc3b7f1f7bad2bc0751a933e00c801983"/>
+    <ROW Feature_="MainFeature" Component_="b43f450fdc39395ec489320fd3b226f116f5"/>
+    <ROW Feature_="MainFeature" Component_="f35cf854dd9bf0799653f11486601bc5f574b"/>
+    <ROW Feature_="MainFeature" Component_="f04fc152b130cc139c27a149090a282bd39c50"/>
+    <ROW Feature_="MainFeature" Component_="b50b27c5159120937abf9e90f40f88844deb"/>
+    <ROW Feature_="MainFeature" Component_="f881ab932ddde7d2d790fbe1e6f7d2b08c57"/>
+    <ROW Feature_="MainFeature" Component_="d0416886e7c50c93f743f4fc17fe01c29688b"/>
+    <ROW Feature_="MainFeature" Component_="e81f088793626a996ccd337d51643e44953"/>
+    <ROW Feature_="MainFeature" Component_="eb5e642b60f991a7a93f0928614b79195de38a"/>
+    <ROW Feature_="MainFeature" Component_="dc6309dd8cc53ce97910cf7b1de81e3f9f1ff7"/>
+    <ROW Feature_="MainFeature" Component_="ef7bcd3386d764570f91c021f35b955e"/>
+    <ROW Feature_="MainFeature" Component_="df0b86da1f01ef1229bc292ae5ab"/>
+    <ROW Feature_="MainFeature" Component_="f38ef7f00b668a56836e3dfed05a431"/>
+    <ROW Feature_="MainFeature" Component_="f1b8384bef1e1ff7f89e37bb88a0283279a0f"/>
+    <ROW Feature_="MainFeature" Component_="f9822e97b12d7167a2f0dd01d9969d"/>
+    <ROW Feature_="MainFeature" Component_="d883e209c2a577fa4b0348248066fed2f13edd"/>
+    <ROW Feature_="MainFeature" Component_="cb10795e02975be193424d958a83123cd79f06"/>
+    <ROW Feature_="MainFeature" Component_="c33b7ee45f0be381a5e5fbb6feb84bf7c560c0"/>
+    <ROW Feature_="MainFeature" Component_="f4767094f79545a94bc6c060348158169c1475"/>
+    <ROW Feature_="MainFeature" Component_="de1360d9a4e9f56e41a2df95aecefdbe1bc0"/>
+    <ROW Feature_="MainFeature" Component_="b021996ccc2889151f885d11c5a14fd8835273"/>
+    <ROW Feature_="MainFeature" Component_="bd71f791a2d3b4fa1f035b63a87043e461fb"/>
+    <ROW Feature_="MainFeature" Component_="cdf7ce6e1881105872da7185a78fa2e24d4a0"/>
+    <ROW Feature_="MainFeature" Component_="fd344095115099c7f222d655a50c9c68b2793"/>
+    <ROW Feature_="MainFeature" Component_="e3a47ea47da9ed3419c85e2e3a88388380073"/>
+    <ROW Feature_="MainFeature" Component_="fbae2bcfece4ddf38a662d03d390034a97387"/>
+    <ROW Feature_="MainFeature" Component_="f91630f1bd2b6cafe8f704f0ce08a02a0d57c2"/>
+    <ROW Feature_="MainFeature" Component_="ef129742f21542c6b772a07a3c9fd97031ad7"/>
+    <ROW Feature_="MainFeature" Component_="deb2ffc68a314e1bef6f085001d7fec38e0686"/>
+    <ROW Feature_="MainFeature" Component_="eab6323d95234143435df1bc93aee83a82e20b"/>
+    <ROW Feature_="MainFeature" Component_="c2b316af08c566d432feac8ebc54dc9fe0ec74"/>
+    <ROW Feature_="MainFeature" Component_="c0189d0b9855130740cace88485a89985ce5"/>
+    <ROW Feature_="MainFeature" Component_="fc5a8b4b33404a6d578c5808be4f6b508"/>
+    <ROW Feature_="MainFeature" Component_="ca487b681697a55b84c86ba8d01c845efaa8a4"/>
+    <ROW Feature_="MainFeature" Component_="f2f368f39d401868b2a16ec7ea09ca04c042d1"/>
+    <ROW Feature_="MainFeature" Component_="ebe19f7e4929d773d4ce5f7b16550d8e86c90"/>
+    <ROW Feature_="MainFeature" Component_="a5ab62a611f0d1cc9f894bd20dd12430b0221"/>
+    <ROW Feature_="MainFeature" Component_="dab09cf3f52aed540a5accb83b93e7dfe"/>
+    <ROW Feature_="MainFeature" Component_="dc31779b6cab9e3181780a7af957aaa16"/>
+    <ROW Feature_="MainFeature" Component_="eadfd2468eeffae5315b0a89b4d46f88d06c4"/>
+    <ROW Feature_="MainFeature" Component_="cc962f3bcdfd95ff01e9796f86616ad1b2a3"/>
+    <ROW Feature_="MainFeature" Component_="master_1"/>
+    <ROW Feature_="MainFeature" Component_="builtjar.properties"/>
+    <ROW Feature_="MainFeature" Component_="dashboardAdmin1.class"/>
+    <ROW Feature_="MainFeature" Component_="changePassword1.class"/>
+    <ROW Feature_="MainFeature" Component_="databaseConnection.class"/>
+    <ROW Feature_="MainFeature" Component_="dashboardPegawai1.class"/>
+    <ROW Feature_="MainFeature" Component_="dashboardPelanggan1.class"/>
+    <ROW Feature_="MainFeature" Component_="build.xml"/>
+    <ROW Feature_="MainFeature" Component_="Akfizrennurjend.jar"/>
+    <ROW Feature_="MainFeature" Component_="mysqlconnectorj9.3.0.jar"/>
+    <ROW Feature_="MainFeature" Component_="buildimpl.xml"/>
+    <ROW Feature_="MainFeature" Component_="private.properties"/>
+    <ROW Feature_="MainFeature" Component_="dashboardAdmin.form"/>
+    <ROW Feature_="MainFeature" Component_="changePassword.form"/>
+    <ROW Feature_="MainFeature" Component_="databaseConnection.java"/>
+    <ROW Feature_="MainFeature" Component_="dashboardPegawai.form"/>
+    <ROW Feature_="MainFeature" Component_="dashboardPelanggan.form"/>
+    <ROW Feature_="MainFeature" Component_="Demo.exe"/>
+    <ROW Feature_="MainFeature" Component_="SHORTCUTDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIniFileComponent">
+    <ROW IniFile="ApplicationType" FileName="AKFIZR~1.INI|Akfizrennurjend.ini" DirProperty="APPDIR" Section="Application" Key="Application Type" Value="gui" Action="0" Component_="Demo.exe"/>
+    <ROW IniFile="ClassPath" FileName="AKFIZR~1.INI|Akfizrennurjend.ini" DirProperty="APPDIR" Section="Class Path" Key="Class Path" Value="[Akfizrennurjend_Dir];[#mysqlconnectorj9.3.0.jar];" Action="0" Component_="Demo.exe"/>
+    <ROW IniFile="EmbeddedJar" FileName="AKFIZR~1.INI|Akfizrennurjend.ini" DirProperty="APPDIR" Section="Application" Key="Embedded Jar" Value="yes" Action="0" Component_="Demo.exe"/>
+    <ROW IniFile="FailureCheck" FileName="AKFIZR~1.INI|Akfizrennurjend.ini" DirProperty="APPDIR" Section="Application" Key="Failure Check" Value="yes" Action="0" Component_="Demo.exe"/>
+    <ROW IniFile="MainClass" FileName="AKFIZR~1.INI|Akfizrennurjend.ini" DirProperty="APPDIR" Section="Java Runtime Environment" Key="Main Class" Value="auth.main" Action="0" Component_="Demo.exe"/>
+    <ROW IniFile="MaximumVersion" FileName="AKFIZR~1.INI|Akfizrennurjend.ini" DirProperty="APPDIR" Section="Java Runtime Environment" Key="Maximum Version" Value="any" Action="0" Component_="Demo.exe"/>
+    <ROW IniFile="MinimumVersion" FileName="AKFIZR~1.INI|Akfizrennurjend.ini" DirProperty="APPDIR" Section="Java Runtime Environment" Key="Minimum Version" Value="any" Action="0" Component_="Demo.exe"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Sequence="199"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiJavaComponent">
+    <ROW Name="Demo.exe" Launcher="Demo.exe" MainClass="MainClass" ClassPath="ClassPath" JREMin="MinimumVersion" JREMax="MaximumVersion" IconPath="..\..\Downloads\car-rent_14023095.ico" AppType="ApplicationType" PlusList="APPDIR;" MinusList="#Demo.exe;" MacDescription="[|CurrentJavaProductName] [|ProductVersion] © [|Manufacturer], Inc, 2025" MacBundleId="com.[|Manufacturer].[|ProductName].[|CurrentJavaProductName]" FailureCheck="FailureCheck" UACExecutionLevel="2" Platform64="true" EmbJarPath="..\Akfizrennurjend\Akfizrennurjend\dist\Akfizrennurjend.jar" HasEmbJar="EmbeddedJar"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="((VersionNT &lt;&gt; 501) AND (VersionNT &lt;&gt; 502))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 600)" Description="[ProductName] cannot be installed on [WindowsTypeNT60Display]." DescriptionLocId="AI.LaunchCondition.NoNT60" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Manufacturer" Root="-1" Key="Software\[Manufacturer]" Name="\"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="ProductName" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="\"/>
+    <ROW Registry="Software" Root="-1" Key="Software" Name="\"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="Demo" Directory_="SHORTCUTDIR" Name="AKFIZR~1|Akfizrennurjend" Component_="Demo.exe" Target="[#Demo.exe]" Description="[|CurrentJavaProductName] [|ProductVersion] © [|Manufacturer], Inc, 2025" Hotkey="0" IconIndex="0" ShowCmd="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>
